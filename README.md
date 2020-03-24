@@ -2,9 +2,10 @@
 
 ## Step - 1 - Add Dependency
 
+```
 pod 'FoloosiSDK'
 pod update
-
+```
 
 ## Step - 2 - Import SDK 
 
