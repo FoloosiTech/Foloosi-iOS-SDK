@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFBFB1272429F820005DF09E /* FoloosiSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBFB1242429F62A005DF09E /* FoloosiSdk.framework */; };
-		AFBFB1282429F820005DF09E /* FoloosiSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFBFB1242429F62A005DF09E /* FoloosiSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF62394A242A1E1F008B930B /* FoloosiSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF623948242A1DBD008B930B /* FoloosiSdk.framework */; };
+		AF62394B242A1E1F008B930B /* FoloosiSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF623948242A1DBD008B930B /* FoloosiSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AFD9C6DE242893CC00F02878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DD242893CC00F02878 /* AppDelegate.swift */; };
 		AFD9C6E0242893CC00F02878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */; };
 		AFD9C6E2242893CC00F02878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6E1242893CC00F02878 /* ViewController.swift */; };
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AFBFB1282429F820005DF09E /* FoloosiSdk.framework in Embed Frameworks */,
+				AF62394B242A1E1F008B930B /* FoloosiSdk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AFBFB1242429F62A005DF09E /* FoloosiSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoloosiSdk.framework; sourceTree = "<group>"; };
+		AF623948242A1DBD008B930B /* FoloosiSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoloosiSdk.framework; sourceTree = "<group>"; };
 		AFD9C6DA242893CC00F02878 /* Foloosi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foloosi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD9C6DD242893CC00F02878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,27 +48,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFBFB1272429F820005DF09E /* FoloosiSdk.framework in Frameworks */,
+				AF62394A242A1E1F008B930B /* FoloosiSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AFBFB1232429F629005DF09E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AFBFB1242429F62A005DF09E /* FoloosiSdk.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		AFD9C6D1242893CC00F02878 = {
 			isa = PBXGroup;
 			children = (
 				AFD9C6DC242893CC00F02878 /* FoloosiPro */,
 				AFD9C6DB242893CC00F02878 /* Products */,
-				AFBFB1232429F629005DF09E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +74,7 @@
 		AFD9C6DC242893CC00F02878 /* FoloosiPro */ = {
 			isa = PBXGroup;
 			children = (
+				AF623948242A1DBD008B930B /* FoloosiSdk.framework */,
 				AFD9C6DD242893CC00F02878 /* AppDelegate.swift */,
 				AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */,
 				AFD9C6E1242893CC00F02878 /* ViewController.swift */,
