@@ -3,14 +3,14 @@
 ## Step - 1 - Add Dependency
 
 ```
-pod 'FoloosiSDK'
+pod 'FoloosiSdk'
 pod update
 ```
 
 ## Step - 2 - Import SDK 
 
 ```
-import FoloosiSDK
+import FoloosiSdk
 ```
 
 
