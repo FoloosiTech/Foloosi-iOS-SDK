@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Foloosi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mobile" translatesAutoresizingMaskIntoConstraints="NO" id="P4z-nm-1HR">
+                                <rect key="frame" x="20" y="64" width="374" height="517.5"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="Xbv-fD-KIp">
+                                <rect key="frame" x="20" y="698" width="374" height="144"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ld7-jc-WDg">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="BuA-ku-LVx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Fh-hZ-c9z">
+                                        <rect key="frame" x="0.0" y="52" width="374" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="l0J-qB-M1U"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bks-KL-igU">
+                                        <rect key="frame" x="0.0" y="104" width="374" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="KcQ-A0-a71"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                        <state key="normal" title="PAY WITH FOLOOSI">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="PayBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yji-X0-883"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Bks-KL-igU" secondAttribute="trailing" id="8um-tJ-lZn"/>
+                                    <constraint firstAttribute="trailing" secondItem="ld7-jc-WDg" secondAttribute="trailing" id="KO3-9h-zEg"/>
+                                    <constraint firstItem="Bks-KL-igU" firstAttribute="leading" secondItem="Xbv-fD-KIp" secondAttribute="leading" id="SDi-b0-ePz"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Fh-hZ-c9z" secondAttribute="trailing" id="cua-Az-a0v"/>
+                                    <constraint firstItem="ld7-jc-WDg" firstAttribute="top" secondItem="Xbv-fD-KIp" secondAttribute="top" id="hBq-rK-EvQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Bks-KL-igU" secondAttribute="bottom" id="hhA-V7-aUv"/>
+                                    <constraint firstItem="4Fh-hZ-c9z" firstAttribute="leading" secondItem="Xbv-fD-KIp" secondAttribute="leading" id="lhJ-jg-uxA"/>
+                                    <constraint firstItem="ld7-jc-WDg" firstAttribute="leading" secondItem="Xbv-fD-KIp" secondAttribute="leading" id="tht-kU-Y0d"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="d8z-HE-zrf">
+                                <rect key="frame" x="20" y="601.5" width="374" height="66.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MI, Lenovo, One Plus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L63-P9-RnL">
+                                        <rect key="frame" x="0.0" y="0.0" width="160.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand New Android Mobiles are available for New Year Sale:). Order Now using Foloosi Payment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Xlh-Vl-QCA">
+                                        <rect key="frame" x="0.0" y="25.5" width="362" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66.5" id="m8Z-Pc-l0U"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="P4z-nm-1HR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="HwF-zT-pg0"/>
+                            <constraint firstItem="d8z-HE-zrf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ka9-xB-3BT"/>
+                            <constraint firstItem="Xbv-fD-KIp" firstAttribute="top" secondItem="d8z-HE-zrf" secondAttribute="bottom" constant="30" id="Kg2-nu-Md2"/>
+                            <constraint firstItem="Xbv-fD-KIp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Lr8-kP-3Y4"/>
+                            <constraint firstItem="d8z-HE-zrf" firstAttribute="top" secondItem="P4z-nm-1HR" secondAttribute="bottom" constant="20" id="MbF-wQ-eVZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xbv-fD-KIp" secondAttribute="trailing" constant="20" id="Qlw-bQ-YfZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P4z-nm-1HR" secondAttribute="trailing" constant="20" id="RWq-CE-rLI"/>
+                            <constraint firstItem="P4z-nm-1HR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Vck-Oj-rOF"/>
+                            <constraint firstAttribute="trailing" secondItem="d8z-HE-zrf" secondAttribute="trailing" constant="20" id="X78-Nk-42R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xbv-fD-KIp" secondAttribute="bottom" constant="20" id="y3j-Ze-07Y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="amountTextField" destination="4Fh-hZ-c9z" id="4JU-c3-Knq"/>
+                        <outlet property="currencyCodeTextField" destination="ld7-jc-WDg" id="Zr5-hh-Hc4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mobile" width="772" height="757"/>
+    </resources>
+</document>

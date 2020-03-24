@@ -1,0 +1,11 @@
+framework module FoloosiSdk {
+  umbrella header "FoloosiSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module FoloosiSdk.Swift {
+    header "FoloosiSdk-Swift.h"
+    requires objc
+}
