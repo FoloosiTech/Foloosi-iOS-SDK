@@ -21,7 +21,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="Xbv-fD-KIp">
                                 <rect key="frame" x="20" y="698" width="374" height="144"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ld7-jc-WDg">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Currency code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ld7-jc-WDg">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="BuA-ku-LVx"/>
@@ -29,7 +29,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Fh-hZ-c9z">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Fh-hZ-c9z">
                                         <rect key="frame" x="0.0" y="52" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="l0J-qB-M1U"/>
@@ -102,6 +102,7 @@
                     <connections>
                         <outlet property="amountTextField" destination="4Fh-hZ-c9z" id="4JU-c3-Knq"/>
                         <outlet property="currencyCodeTextField" destination="ld7-jc-WDg" id="Zr5-hh-Hc4"/>
+                        <outlet property="stackViewBottomConstraints" destination="y3j-Ze-07Y" id="gEy-Zo-XAa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

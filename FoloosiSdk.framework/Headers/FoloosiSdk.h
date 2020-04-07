@@ -1,10 +1,4 @@
-//
-//  FoloosiSdk.h
-//  FoloosiSdk
-//
-//  Created by Quadkast on 23/03/20.
-//  Copyright © 2020 roamsoft. All rights reserved.
-//
+
 
 #import <Foundation/Foundation.h>
 
