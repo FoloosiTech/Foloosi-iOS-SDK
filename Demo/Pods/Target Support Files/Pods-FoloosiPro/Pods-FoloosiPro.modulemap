@@ -1,0 +1,6 @@
+framework module Pods_FoloosiPro {
+  umbrella header "Pods-FoloosiPro-umbrella.h"
+
+  export *
+  module * { export * }
+}

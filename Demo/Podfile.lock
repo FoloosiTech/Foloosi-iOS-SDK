@@ -1,0 +1,16 @@
+PODS:
+  - Foloosi-iOS-SDK (1.0.0)
+
+DEPENDENCIES:
+  - Foloosi-iOS-SDK
+
+SPEC REPOS:
+  trunk:
+    - Foloosi-iOS-SDK
+
+SPEC CHECKSUMS:
+  Foloosi-iOS-SDK: c8140f7cf1b6fb2eb610ebef425f5a7c87121333
+
+PODFILE CHECKSUM: fc5d2486cbf2d1ea20e21c8d6a4448f9e5ce9612
+
+COCOAPODS: 1.8.4

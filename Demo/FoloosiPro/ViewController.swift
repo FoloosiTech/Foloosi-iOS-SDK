@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  FoloosiPro
-//
-//  Created by Quadkast on 23/03/20.
-//  Copyright © 2020 roamsoft. All rights reserved.
-//
+
 
 import UIKit
 import FoloosiSdk
@@ -35,7 +29,7 @@ class ViewController: UIViewController {
     
     @IBAction func PayBtnTapped(_ sender: Any) {
         FLog.setLogVisible(debug: true)
-        FoloosiPay.initSDK(merchantKey: "test_$2y$10$nBFlhIbZ0xA1A0.-MPvoP.v45N5oiAJeBPomyWw-dya-GEUtqZKiy", withDelegate: self)
+        FoloosiPay.initSDK(merchantKey: "YOUR MERCHANT KEY", withDelegate: self)
         let orderData = OrderData()
         orderData.orderTitle = "OrderTitle"
         orderData.currencyCode = "INR"
