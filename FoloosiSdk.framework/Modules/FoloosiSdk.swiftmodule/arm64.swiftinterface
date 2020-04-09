@@ -1,0 +1,45 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FoloosiSdk
+@_exported import FoloosiSdk
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+public class FoloosiPay {
+  public static func initSDK(merchantKey: Swift.String, withDelegate: FoloosiSdk.FoloosiDelegate?)
+  public static func makePayment(orderData: FoloosiSdk.OrderData?)
+  public static func getDeletegate() -> FoloosiSdk.FoloosiDelegate?
+  @objc deinit
+}
+public class OrderData {
+  public var orderTitle: Swift.String?
+  public var orderDescription: Swift.String?
+  public var orderAmount: Swift.Double?
+  public var orderId: Swift.String?
+  public var currencyCode: Swift.String?
+  public var customColor: Swift.String?
+  public var customer: FoloosiSdk.Customer?
+  public init()
+  @objc deinit
+}
+public protocol FoloosiDelegate {
+  func onPaymentError(descriptionOfError: Swift.String)
+  func onPaymentSuccess(paymentId: Swift.String)
+}
+public class Customer {
+  public var customerName: Swift.String?
+  public var customerEmail: Swift.String?
+  public var customerPhoneNumber: Swift.String?
+  public var customerPhoneCode: Swift.String?
+  public var customerAddress: Swift.String?
+  public var customerCity: Swift.String?
+  public init()
+  @objc deinit
+}
+public class FLog {
+  public init()
+  public static func setLogVisible(debug: Swift.Bool)
+  @objc deinit
+}
