@@ -3,7 +3,7 @@
 ## Step - 1 - Add Dependency
 
 ```
-pod 'FoloosiSdk'
+pod 'Foloosi-iOS-SDK'
 pod update
 ```
 
@@ -69,6 +69,30 @@ extension ViewController: FoloosiDelegate{
 }
 
 ```
+
+## iOS 9 Update
+
+iOS 9 has higher requirements for secure URLs. As many Indian banks do not comply with the requirements, you can implement the following as a workaround in Info.plist
+
+```
+
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
+
+```
+
+## Foloosi Log
+
+You can enable / disable the SDK logs by using the below line of code. By default it will be enabled.
+
+```
+FLog.setLogVisible(debug: true or false)
+
+```
+
 
 
 ## Sample Payment Reference.
