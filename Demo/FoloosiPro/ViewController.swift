@@ -28,28 +28,44 @@ class ViewController: UIViewController {
     }
     
     @IBAction func PayBtnTapped(_ sender: Any) {
-        FLog.setLogVisible(debug: true)
-        FoloosiPay.initSDK(merchantKey: "test_$2y$10$nBFlhIbZ0xA1A0.-MPvoP.v45N5oiAJeBPomyWw-dya-GEUtqZKiy", withDelegate: self)
-        let orderData = OrderData()
-        orderData.orderTitle = "OrderTitle"
-        orderData.currencyCode = "INR"
-        orderData.customColor = "#0000FF"
-        orderData.orderAmount = 21
-        orderData.orderId = "Order Id"
-        orderData.orderDescription = "Order Description"
-        let customer = Customer()
-        customer.customerAddress = "Address"
-        customer.customerCity = "City Name"
-        customer.customerEmail = "email@gmail.com"
-        customer.customerName = "Name"
-        customer.customerPhoneCode = ""
-        customer.customerPhoneNumber = "1234567893"
-        orderData.customer = customer
-        FoloosiPay.makePayment(orderData: orderData)
+        let amount = amountTextField.text
+        if let value = Double(amount ?? "0.0") {
+            if amount == "" || value < 21 {
+                errorAlert(message: "Please enter valid amount")
+            } else {
+                FLog.setLogVisible(debug: true)
+                FoloosiPay.initSDK(merchantKey: "test_$2y$10$nBFlhIbZ0xA1A0.-MPvoP.v45N5oiAJeBPomyWw-dya-GEUtqZKiy", withDelegate: self)
+                let orderData = OrderData()
+                orderData.orderTitle = "OrderTitle"
+                orderData.currencyCode = "INR"
+                orderData.customColor = "#0000FF"
+                orderData.orderAmount = value
+                orderData.orderId = "Order Id"
+                orderData.orderDescription = "Order Description"
+                let customer = Customer()
+                customer.customerAddress = "Address"
+                customer.customerCity = "City Name"
+                customer.customerEmail = "email@gmail.com"
+                customer.customerName = "Name"
+                customer.customerPhoneCode = ""
+                customer.customerPhoneNumber = "1234567893"
+                orderData.customer = customer
+                FoloosiPay.makePayment(orderData: orderData)
+            }
+        }
+        
+        
     }
     
-
+    func errorAlert(message: String) {
+        let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alert.addAction(okAction)
+        self.present(alert, animated: true, completion: nil)
+    }
 }
+
+
 
 extension ViewController: FoloosiDelegate{
     func onPaymentError(descriptionOfError: String) {
