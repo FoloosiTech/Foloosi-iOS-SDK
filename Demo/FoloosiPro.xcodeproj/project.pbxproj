@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF575CBE24B859D300CE3E16 /* FoloosiSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF575CBC24B859C200CE3E16 /* FoloosiSdk.framework */; };
-		AF575CBF24B859D300CE3E16 /* FoloosiSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF575CBC24B859C200CE3E16 /* FoloosiSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF748893243C63AF00B67AC8 /* Pods_FoloosiPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CB97AF90EFAB87D06D93EB /* Pods_FoloosiPro.framework */; };
 		AFD9C6DE242893CC00F02878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DD242893CC00F02878 /* AppDelegate.swift */; };
 		AFD9C6E0242893CC00F02878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */; };
@@ -25,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AF575CBF24B859D300CE3E16 /* FoloosiSdk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,7 +33,6 @@
 		58CB97AF90EFAB87D06D93EB /* Pods_FoloosiPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoloosiPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F11E320FFC32E40418877B6 /* Pods-FoloosiPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoloosiPro.debug.xcconfig"; path = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.debug.xcconfig"; sourceTree = "<group>"; };
 		AD90CF6A21A039F3FB214BEF /* Pods-FoloosiPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoloosiPro.release.xcconfig"; path = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.release.xcconfig"; sourceTree = "<group>"; };
-		AF575CBC24B859C200CE3E16 /* FoloosiSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoloosiSdk.framework; sourceTree = SOURCE_ROOT; };
 		AF5D8BD2243637D6006A0B43 /* Foloosi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Foloosi.entitlements; sourceTree = "<group>"; };
 		AFD9C6DA242893CC00F02878 /* Foloosi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foloosi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD9C6DD242893CC00F02878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +50,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF748893243C63AF00B67AC8 /* Pods_FoloosiPro.framework in Frameworks */,
-				AF575CBE24B859D300CE3E16 /* FoloosiSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +85,6 @@
 		AFD9C6DC242893CC00F02878 /* FoloosiPro */ = {
 			isa = PBXGroup;
 			children = (
-				AF575CBC24B859C200CE3E16 /* FoloosiSdk.framework */,
 				AF5D8BD2243637D6006A0B43 /* Foloosi.entitlements */,
 				AFD9C6DD242893CC00F02878 /* AppDelegate.swift */,
 				AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */,
@@ -124,6 +118,7 @@
 				AFD9C6D7242893CC00F02878 /* Frameworks */,
 				AFD9C6D8242893CC00F02878 /* Resources */,
 				AF79D33D24B5B4C900EF6277 /* Embed Frameworks */,
+				F1D8CA4FD26A341012F27503 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +196,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D8CA4FD26A341012F27503 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
