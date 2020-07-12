@@ -3,60 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		14B6DE64EB6A7BFB0D5FE3071C216EE1 /* Foloosi-iOS-SDK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = F4B974AD3810160D3C54BD6646B510F3 /* Build configuration list for PBXAggregateTarget "Foloosi-iOS-SDK" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = "Foloosi-iOS-SDK";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		3B586A84173FEAF62F31C1C72B53A18F /* Pods-FoloosiPro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE76DAA603B242CDAF5519820229D13 /* Pods-FoloosiPro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C86B59050E1C797F98BF6885A7EDEE2 /* Pods-FoloosiPro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D4F344C8124D815125111AFCB61C76 /* Pods-FoloosiPro-dummy.m */; };
-		EAADC73C73FE93886D6D8DCECB33F03A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		50A60CB8BCEC5FEAD98DE4EB20411C8F /* Pods-FoloosiPro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2720234545C0A139F71AA51797796F53 /* Pods-FoloosiPro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8872632E848E57E959F115E34585D2E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A2E29186AA05A10BEF3D01F64C3143C9 /* Pods-FoloosiPro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 614461C7C86D248C6773EE94E88D7AE7 /* Pods-FoloosiPro-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2DB5DF3D56235D449DFC6CEAD2D6BD43 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14B6DE64EB6A7BFB0D5FE3071C216EE1;
-			remoteInfo = "Foloosi-iOS-SDK";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0CE76DAA603B242CDAF5519820229D13 /* Pods-FoloosiPro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoloosiPro-umbrella.h"; sourceTree = "<group>"; };
-		16EEC5EF4D15139C4074CD1639D8AEB4 /* Pods-FoloosiPro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoloosiPro.modulemap"; sourceTree = "<group>"; };
-		2FCD73D3DB08D7C0381CD3213289C3EA /* Pods-FoloosiPro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoloosiPro-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23FBB2643EA2184E9F66238B9124AA95 /* Pods-FoloosiPro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoloosiPro.modulemap"; sourceTree = "<group>"; };
+		24F95CB20B101D18F6C5C3AED280D3DB /* Pods-FoloosiPro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoloosiPro-acknowledgements.plist"; sourceTree = "<group>"; };
+		2720234545C0A139F71AA51797796F53 /* Pods-FoloosiPro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoloosiPro-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39D4F344C8124D815125111AFCB61C76 /* Pods-FoloosiPro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoloosiPro-dummy.m"; sourceTree = "<group>"; };
-		47E3168A16D000D6CCE9E3F8E4A43ED0 /* Pods-FoloosiPro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoloosiPro-acknowledgements.plist"; sourceTree = "<group>"; };
-		65024A948973085CD235CFC5974C27B6 /* Foloosi-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Foloosi-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
-		7B4F9419CD8CC5C7A9E4C4F12A98FA44 /* Pods-FoloosiPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoloosiPro.release.xcconfig"; sourceTree = "<group>"; };
+		4CECE0EEDE30A065407F03E6A3627557 /* Pods-FoloosiPro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoloosiPro-Info.plist"; sourceTree = "<group>"; };
+		614461C7C86D248C6773EE94E88D7AE7 /* Pods-FoloosiPro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoloosiPro-dummy.m"; sourceTree = "<group>"; };
+		885015760D2C25840962CA9678C909AF /* Pods-FoloosiPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoloosiPro.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FA37F4D74D078B5D03E937FAED12FFF /* Pods-FoloosiPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoloosiPro.debug.xcconfig"; sourceTree = "<group>"; };
-		AE319DCAA287D0E76FEC754BE25A6444 /* Pods-FoloosiPro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoloosiPro-Info.plist"; sourceTree = "<group>"; };
-		C6E306ED9095A62B403C8A9EC8085C95 /* Pods-FoloosiPro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoloosiPro-frameworks.sh"; sourceTree = "<group>"; };
-		D3643B77C364BCD491711C17E9632E58 /* FoloosiSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoloosiSdk.framework; sourceTree = "<group>"; };
+		C5AF01E5B12DFAE0D94F3C97A5AC4774 /* Pods-FoloosiPro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoloosiPro-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D00150D5EF3639F181ECF1660645F43F /* Pods-FoloosiPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoloosiPro.release.xcconfig"; sourceTree = "<group>"; };
 		F6EFBD104F16664C9D2F6B2C76CFD15D /* Pods_FoloosiPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoloosiPro.framework; path = "Pods-FoloosiPro.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00B07FCEC42BED9C0AE3C0843F9B69D2 /* Frameworks */ = {
+		ADBF1E2CDFD00178AA42244E2A3B4C79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAADC73C73FE93886D6D8DCECB33F03A /* Foundation.framework in Frameworks */,
+				8872632E848E57E959F115E34585D2E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,33 +46,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		650F58BC362BF5B3013EDB4F3939E2AF /* Foloosi-iOS-SDK */ = {
-			isa = PBXGroup;
-			children = (
-				C67A9F67768BEF75CC31C23310E2BE4F /* Frameworks */,
-				7F8E4199180F138FC23CBB27D9B91A10 /* Support Files */,
-			);
-			name = "Foloosi-iOS-SDK";
-			path = "Foloosi-iOS-SDK";
-			sourceTree = "<group>";
-		};
-		7A4E64CC3FF5F726289BC88A61BF4218 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				650F58BC362BF5B3013EDB4F3939E2AF /* Foloosi-iOS-SDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		7F8E4199180F138FC23CBB27D9B91A10 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				65024A948973085CD235CFC5974C27B6 /* Foloosi-iOS-SDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Foloosi-iOS-SDK";
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,35 +54,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C3F8FF8B66F516F9FC6A2134698A38C7 /* Pods-FoloosiPro */ = {
+		C232B1395EC263215CF167E9AC073BAE /* Pods-FoloosiPro */ = {
 			isa = PBXGroup;
 			children = (
-				16EEC5EF4D15139C4074CD1639D8AEB4 /* Pods-FoloosiPro.modulemap */,
-				2FCD73D3DB08D7C0381CD3213289C3EA /* Pods-FoloosiPro-acknowledgements.markdown */,
-				47E3168A16D000D6CCE9E3F8E4A43ED0 /* Pods-FoloosiPro-acknowledgements.plist */,
-				39D4F344C8124D815125111AFCB61C76 /* Pods-FoloosiPro-dummy.m */,
-				C6E306ED9095A62B403C8A9EC8085C95 /* Pods-FoloosiPro-frameworks.sh */,
-				AE319DCAA287D0E76FEC754BE25A6444 /* Pods-FoloosiPro-Info.plist */,
-				0CE76DAA603B242CDAF5519820229D13 /* Pods-FoloosiPro-umbrella.h */,
-				9FA37F4D74D078B5D03E937FAED12FFF /* Pods-FoloosiPro.debug.xcconfig */,
-				7B4F9419CD8CC5C7A9E4C4F12A98FA44 /* Pods-FoloosiPro.release.xcconfig */,
+				23FBB2643EA2184E9F66238B9124AA95 /* Pods-FoloosiPro.modulemap */,
+				C5AF01E5B12DFAE0D94F3C97A5AC4774 /* Pods-FoloosiPro-acknowledgements.markdown */,
+				24F95CB20B101D18F6C5C3AED280D3DB /* Pods-FoloosiPro-acknowledgements.plist */,
+				614461C7C86D248C6773EE94E88D7AE7 /* Pods-FoloosiPro-dummy.m */,
+				4CECE0EEDE30A065407F03E6A3627557 /* Pods-FoloosiPro-Info.plist */,
+				2720234545C0A139F71AA51797796F53 /* Pods-FoloosiPro-umbrella.h */,
+				885015760D2C25840962CA9678C909AF /* Pods-FoloosiPro.debug.xcconfig */,
+				D00150D5EF3639F181ECF1660645F43F /* Pods-FoloosiPro.release.xcconfig */,
 			);
 			name = "Pods-FoloosiPro";
 			path = "Target Support Files/Pods-FoloosiPro";
 			sourceTree = "<group>";
 		};
-		C67A9F67768BEF75CC31C23310E2BE4F /* Frameworks */ = {
+		CB88DB73B82E43030C9D7D275FB4A59E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D3643B77C364BCD491711C17E9632E58 /* FoloosiSdk.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C7D5F5FB044532D9CBBB3942C7B14A5D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C3F8FF8B66F516F9FC6A2134698A38C7 /* Pods-FoloosiPro */,
+				C232B1395EC263215CF167E9AC073BAE /* Pods-FoloosiPro */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -144,9 +83,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				7A4E64CC3FF5F726289BC88A61BF4218 /* Pods */,
 				237BBF0252430DECE32D7ED4AE88CFC5 /* Products */,
-				C7D5F5FB044532D9CBBB3942C7B14A5D /* Targets Support Files */,
+				CB88DB73B82E43030C9D7D275FB4A59E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,11 +99,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B034F421466707C68D3476CD9B387A30 /* Headers */ = {
+		5310854197D2330B932839ECA87A2D56 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B586A84173FEAF62F31C1C72B53A18F /* Pods-FoloosiPro-umbrella.h in Headers */,
+				50A60CB8BCEC5FEAD98DE4EB20411C8F /* Pods-FoloosiPro-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,17 +112,16 @@
 /* Begin PBXNativeTarget section */
 		FF7F767AFA1BF1DB99FEDDE4B85DCEA1 /* Pods-FoloosiPro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93DC2D9E37EBA94C063B3B6D0E547AC9 /* Build configuration list for PBXNativeTarget "Pods-FoloosiPro" */;
+			buildConfigurationList = 9A696F0A0C638327B159448DF110E82C /* Build configuration list for PBXNativeTarget "Pods-FoloosiPro" */;
 			buildPhases = (
-				B034F421466707C68D3476CD9B387A30 /* Headers */,
-				EB857BC330D7334093BF1D8168E56B96 /* Sources */,
-				00B07FCEC42BED9C0AE3C0843F9B69D2 /* Frameworks */,
-				B249BCC06972200D7A937DE0D156224C /* Resources */,
+				5310854197D2330B932839ECA87A2D56 /* Headers */,
+				72BA50D980661ED1A108E78EF43800B0 /* Sources */,
+				ADBF1E2CDFD00178AA42244E2A3B4C79 /* Frameworks */,
+				42A8DDA692A0C11D7D8D8F88CBCB2856 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A6ACE3D42665438F505A32E4888DFCB /* PBXTargetDependency */,
 			);
 			name = "Pods-FoloosiPro";
 			productName = "Pods-FoloosiPro";
@@ -201,7 +138,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -212,14 +149,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14B6DE64EB6A7BFB0D5FE3071C216EE1 /* Foloosi-iOS-SDK */,
 				FF7F767AFA1BF1DB99FEDDE4B85DCEA1 /* Pods-FoloosiPro */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B249BCC06972200D7A937DE0D156224C /* Resources */ = {
+		42A8DDA692A0C11D7D8D8F88CBCB2856 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,60 +165,93 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EB857BC330D7334093BF1D8168E56B96 /* Sources */ = {
+		72BA50D980661ED1A108E78EF43800B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C86B59050E1C797F98BF6885A7EDEE2 /* Pods-FoloosiPro-dummy.m in Sources */,
+				A2E29186AA05A10BEF3D01F64C3143C9 /* Pods-FoloosiPro-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		9A6ACE3D42665438F505A32E4888DFCB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Foloosi-iOS-SDK";
-			target = 14B6DE64EB6A7BFB0D5FE3071C216EE1 /* Foloosi-iOS-SDK */;
-			targetProxy = 2DB5DF3D56235D449DFC6CEAD2D6BD43 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		1E2D2047438043D4A82B637F4CBBBD3E /* Debug */ = {
+		0D46E604D2187C23D1FA41DF8539FBE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65024A948973085CD235CFC5974C27B6 /* Foloosi-iOS-SDK.xcconfig */;
+			baseConfigurationReference = D00150D5EF3639F181ECF1660645F43F /* Pods-FoloosiPro.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		79CFBECC44625B3B4277620FAE214CE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65024A948973085CD235CFC5974C27B6 /* Foloosi-iOS-SDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		16B6DB5DC469E2F89ADBD3B3FC9CBCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885015760D2C25840962CA9678C909AF /* Pods-FoloosiPro.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -345,83 +314,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		B0FBDF3B62231AA4A6C6FCE309EE19DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B4F9419CD8CC5C7A9E4C4F12A98FA44 /* Pods-FoloosiPro.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B9194A0E0F27662B9E830D5232EE92F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FA37F4D74D078B5D03E937FAED12FFF /* Pods-FoloosiPro.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -497,20 +389,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93DC2D9E37EBA94C063B3B6D0E547AC9 /* Build configuration list for PBXNativeTarget "Pods-FoloosiPro" */ = {
+		9A696F0A0C638327B159448DF110E82C /* Build configuration list for PBXNativeTarget "Pods-FoloosiPro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9194A0E0F27662B9E830D5232EE92F3 /* Debug */,
-				B0FBDF3B62231AA4A6C6FCE309EE19DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4B974AD3810160D3C54BD6646B510F3 /* Build configuration list for PBXAggregateTarget "Foloosi-iOS-SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E2D2047438043D4A82B637F4CBBBD3E /* Debug */,
-				79CFBECC44625B3B4277620FAE214CE8 /* Release */,
+				16B6DB5DC469E2F89ADBD3B3FC9CBCF0 /* Debug */,
+				0D46E604D2187C23D1FA41DF8539FBE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

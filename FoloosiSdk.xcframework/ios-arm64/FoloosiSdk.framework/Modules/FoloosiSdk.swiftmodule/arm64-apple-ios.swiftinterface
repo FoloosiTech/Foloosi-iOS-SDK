@@ -7,7 +7,8 @@ import Swift
 import SystemConfiguration
 import UIKit
 import WebKit
-@_hasMissingDesignatedInitializers public class FoloosiPay {
+public class FoloosiPay {
+  public init()
   public static func initSDK(merchantKey: Swift.String, withDelegate: FoloosiSdk.FoloosiDelegate?)
   public static func makePayment(orderData: FoloosiSdk.OrderData?)
   public static func getDeletegate() -> FoloosiSdk.FoloosiDelegate?
