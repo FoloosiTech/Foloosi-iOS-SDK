@@ -3,7 +3,7 @@
 ## Step - 1 - Add Dependency
 
 ```
-pod 'Foloosi-iOS-SDK', '~> 1.0.4'
+pod 'Foloosi-iOS-SDK', '~> 1.0.5'
 pod update
 ```
 
@@ -19,7 +19,7 @@ import FoloosiSdk
 To initialize the SDK add the below line of code with the merchant key you retrieved from foloosi merchant panel. If you don't have a merchant key create new one.
 
 ```
-FoloosiPay.init("Your Unique Merchant Key",withDelegate: Self)
+FoloosiPay.initSDK("Your Unique Merchant Key",withDelegate: Self)
 ```
 
 ## Step - 4 - Create Order Data Object with necessary inputs

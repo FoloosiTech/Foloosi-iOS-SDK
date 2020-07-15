@@ -34,7 +34,7 @@ class ViewController: UIViewController {
                 errorAlert(message: "Please enter valid amount")
             } else {
                 FLog.setLogVisible(debug: true)
-                FoloosiPay.initSDK(merchantKey: "YOUR MERCHANT KEY", withDelegate: self)
+                FoloosiPay.initSDK(merchantKey: "test_$2y$10$nBFlhIbZ0xA1A0.-MPvoP.v45N5oiAJeBPomyWw-dya-GEUtqZKiy", withDelegate: self)
                 let orderData = OrderData()
                 orderData.orderTitle = "OrderTitle"
                 orderData.currencyCode = "INR"

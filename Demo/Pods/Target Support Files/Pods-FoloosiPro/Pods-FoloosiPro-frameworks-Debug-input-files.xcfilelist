@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-frameworks.sh
-${PODS_ROOT}/Foloosi-iOS-SDK/FoloosiSdk.framework
+${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt
