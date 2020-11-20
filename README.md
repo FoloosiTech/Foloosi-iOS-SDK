@@ -3,7 +3,7 @@
 ## Step - 1 - Add Dependency
 
 ```
-pod 'Foloosi-iOS-SDK', '~> 1.0.5'
+pod 'Foloosi-iOS-SDK', '~> 1.0.6'
 pod update
 ```
 
