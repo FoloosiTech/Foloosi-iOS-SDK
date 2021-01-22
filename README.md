@@ -3,7 +3,7 @@
 ## Step - 1 - Add Dependency
 
 ```
-pod 'Foloosi-iOS-SDK', '~> 1.0.7'
+pod 'Foloosi-iOS-SDK', '~> 1.0.8'
 pod update
 ```
 
@@ -34,6 +34,9 @@ orderData.customColor = "#12233"  // make payment page loading color as app colo
 orderData.orderAmount = 0  // in double format ##,###.##
 orderData.orderId = ""  // unique order id. 
 orderData.orderDescription = ""  // any description.
+orderData.postalCode = "6000032" 
+orderData.state = "TamilNadu"
+orderData.country = "IN"
 let customer = Customer()
 customer.customerEmail = "email@gmail.com"
 customer.customerName = "name"
