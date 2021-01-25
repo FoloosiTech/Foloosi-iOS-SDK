@@ -43,7 +43,7 @@ class ViewController: UIViewController {
                 orderData.orderId = "Order Id"
                 orderData.postalCode = "6000032"
                 orderData.state = "TamilNadu"
-                orderData.country = "IN"
+                orderData.country = "USA"
                 orderData.orderDescription = "Order Description"
                 let customer = Customer()
                 customer.customerAddress = "Address"

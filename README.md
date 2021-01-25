@@ -3,7 +3,7 @@
 ## Step - 1 - Add Dependency
 
 ```
-pod 'Foloosi-iOS-SDK', '~> 1.0.8'
+pod 'Foloosi-iOS-SDK', '~> 1.0.9'
 pod update
 ```
 
@@ -40,6 +40,8 @@ orderData.country = "IN"
 let customer = Customer()
 customer.customerEmail = "email@gmail.com"
 customer.customerName = "name"
+customer.customerCity = "City"
+customer.customerAddress = "Address"
 customer.customerPhoneNumber = "1234567890"
 orderData.customer = customer
 
