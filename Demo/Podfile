@@ -5,7 +5,7 @@ target 'FoloosiPro' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 	
-   pod 'Foloosi-iOS-SDK', '~> 1.0.9'
+   pod 'Foloosi-iOS-SDK', '~> 1.0.10'
   # Pods for FoloosiPro
 
 end
