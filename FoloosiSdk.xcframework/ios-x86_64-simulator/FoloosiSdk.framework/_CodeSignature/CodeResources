@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/FoloosiSdk-Swift.h</key>
 		<data>
-		lfVvHeb3hObIGN75zzugsc/HANA=
+		rOQ9jex8ZYb086yx6W7dIVgQIXw=
 		</data>
 		<key>Headers/FoloosiSdk.h</key>
 		<data>
@@ -14,35 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8O4FK83apj0FEUCjjFT4Dn5Z9cY=
+		HKeTXCsuwPKuzJqDmYANzuWLiQ8=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
-		AIIoh087HAtO+7fawRWSKNF8wMs=
-		</data>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		TBz+dN+pdoLojP0zN5R9NM1fjlI=
-		</data>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		C5zh0zX4Vk367wXNpgZ9j8qVXBA=
-		</data>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		vXpdbNUbP2aW+yFChZ3d2lVL/YY=
-		</data>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		TBz+dN+pdoLojP0zN5R9NM1fjlI=
-		</data>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		C5zh0zX4Vk367wXNpgZ9j8qVXBA=
-		</data>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		vXpdbNUbP2aW+yFChZ3d2lVL/YY=
+		s6gJhVUNSU7/FyJvzU/U7CUYolw=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +26,11 @@
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MVm++lrx3iJO1tKa23ucZ/jdngQ=
+		rcgfLmlwvIbxmAb4XgKdm1lWFvI=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4mSyfTy/skzM/tFH0T5cEwZ2aDE=
+		7jBcf62+66Ccl2yx6h3jAs/ftIk=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,15 +38,19 @@
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		MVm++lrx3iJO1tKa23ucZ/jdngQ=
+		rcgfLmlwvIbxmAb4XgKdm1lWFvI=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		4mSyfTy/skzM/tFH0T5cEwZ2aDE=
+		7jBcf62+66Ccl2yx6h3jAs/ftIk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		VSkAKcRxDcbtUJmJgyiPGfrWlCU=
+		</data>
+		<key>applepayLogo.png</key>
+		<data>
+		Z+KLpHWqt6FaDhv9o/NDI7jWlh0=
 		</data>
 		<key>backButton.png</key>
 		<data>
@@ -120,6 +100,10 @@
 		<data>
 		dyXMhoncJDw/hTLOWHU2P3ZUDJQ=
 		</data>
+		<key>creditcardpay.png</key>
+		<data>
+		6zrT1kYM1vX/HM+a4uXeWad7p7U=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -127,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YfePyajcvQqIpOeSjowESHKoFl1hzhWFCVCdZ7S6qSo=
+			fHK+ZRs6+U04M22jq9Fbwzazllgkbj8SWG3piCtPcL4=
 			</data>
 		</dict>
 		<key>Headers/FoloosiSdk.h</key>
@@ -141,49 +125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c91Tr74Rt+AfSv+y69H+rLIos9PkY2nCq2a1abMzT6k=
-			</data>
-		</dict>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ITBj7JWIkjq+NHAnyUbWwpHgV42XV4LskMe3buMWRJI=
-			</data>
-		</dict>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7r+g4/l3i/+aDHSB4xCyFyB7miX7DNoXz/6za9xrtpM=
-			</data>
-		</dict>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TR9QYhUkKs/VlZGKem1HD31PoDw78zXXsHiEv5eRTZM=
-			</data>
-		</dict>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ITBj7JWIkjq+NHAnyUbWwpHgV42XV4LskMe3buMWRJI=
-			</data>
-		</dict>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7r+g4/l3i/+aDHSB4xCyFyB7miX7DNoXz/6za9xrtpM=
-			</data>
-		</dict>
-		<key>Modules/FoloosiSdk.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TR9QYhUkKs/VlZGKem1HD31PoDw78zXXsHiEv5eRTZM=
+			nF/krS7l7u/eNsjamHW5t1l9Kmn84rISFHa9oMmzA4w=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -197,14 +139,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nZXfhRAqZp96aKQ9UMGjpf0d3wXoJsywyC9wp0FkQ1Q=
+			tWy6s4qroyMm/DoVkA01Q1bYftjf9wa/+E/GjLtQF0A=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sVp4FFKVdj061bLbltBIcMZKlno3/WlM2bX4L5C9JM8=
+			d7Uf4gYyR4M9u0Uc3dO5woafgflgTViutHRPPUQE2vc=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftdoc</key>
@@ -218,14 +160,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nZXfhRAqZp96aKQ9UMGjpf0d3wXoJsywyC9wp0FkQ1Q=
+			tWy6s4qroyMm/DoVkA01Q1bYftjf9wa/+E/GjLtQF0A=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sVp4FFKVdj061bLbltBIcMZKlno3/WlM2bX4L5C9JM8=
+			d7Uf4gYyR4M9u0Uc3dO5woafgflgTViutHRPPUQE2vc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -233,6 +175,13 @@
 			<key>hash2</key>
 			<data>
 			JEgPFfA1mCOrw05WLgF+MHpCXpB1CnCcrcxA8q3eXsM=
+			</data>
+		</dict>
+		<key>applepayLogo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BsCya0PgvPc+J6YDELuqCLTcf7sb1yCwhS28QxjpTkg=
 			</data>
 		</dict>
 		<key>backButton.png</key>
@@ -317,6 +266,13 @@
 			<key>hash2</key>
 			<data>
 			qK2ylDZTEM+wiaFtxblnk3sxjw6Co2u7eSAGKJPngoQ=
+			</data>
+		</dict>
+		<key>creditcardpay.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OOL3aBXK87wyZK+zWigsnc4u/iv8vgVDbysEDcrn50A=
 			</data>
 		</dict>
 	</dict>
