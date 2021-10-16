@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Creditcard.png</key>
+		<data>
+		W8051Kyss9U/TOO4J0QjC6lnSAU=
+		</data>
 		<key>Headers/FoloosiSdk-Swift.h</key>
 		<data>
 		rOQ9jex8ZYb086yx6W7dIVgQIXw=
@@ -18,7 +22,7 @@
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
-		s6gJhVUNSU7/FyJvzU/U7CUYolw=
+		vAylBlhyKngLghXnx0K3FWEVf+E=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7jBcf62+66Ccl2yx6h3jAs/ftIk=
+		2m96tvejoYfeJ4AlHTKx9wVcsuU=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -42,11 +46,15 @@
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		7jBcf62+66Ccl2yx6h3jAs/ftIk=
+		2m96tvejoYfeJ4AlHTKx9wVcsuU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		VSkAKcRxDcbtUJmJgyiPGfrWlCU=
+		</data>
+		<key>applebutton.png</key>
+		<data>
+		P39WUUj2JjEqQN4BLRH8YDQcHHI=
 		</data>
 		<key>applepayLogo.png</key>
 		<data>
@@ -107,6 +115,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Creditcard.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UF1bItszJh39Jvw1rs6VFdw1Tl5JHGgzFB8D80QfiSs=
+			</data>
+		</dict>
 		<key>Headers/FoloosiSdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -125,7 +140,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nF/krS7l7u/eNsjamHW5t1l9Kmn84rISFHa9oMmzA4w=
+			1i8xb4yh9gQQp0h1RNXej1UZaltxG15IULK6+YF/vKg=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -146,7 +161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d7Uf4gYyR4M9u0Uc3dO5woafgflgTViutHRPPUQE2vc=
+			Qk1YGsURANHnF71bgfoB85IrE98k2HDIoD9G702uKog=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftdoc</key>
@@ -167,7 +182,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d7Uf4gYyR4M9u0Uc3dO5woafgflgTViutHRPPUQE2vc=
+			Qk1YGsURANHnF71bgfoB85IrE98k2HDIoD9G702uKog=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -175,6 +190,13 @@
 			<key>hash2</key>
 			<data>
 			JEgPFfA1mCOrw05WLgF+MHpCXpB1CnCcrcxA8q3eXsM=
+			</data>
+		</dict>
+		<key>applebutton.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sJiXm7HMVFkI3nmVHUGAaupLp1PaBNUpt+p+rGI7onI=
 			</data>
 		</dict>
 		<key>applepayLogo.png</key>
