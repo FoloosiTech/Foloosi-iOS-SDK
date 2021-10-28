@@ -3,7 +3,7 @@
 ## Step - 1 - Add Dependency
 
 ```
-pod 'Foloosi-iOS-SDK', '~> 1.2.9'
+pod 'Foloosi-iOS-SDK', '~> 1.3.0'
 pod update
 ```
 
@@ -44,7 +44,6 @@ customer.customerCity = "City"
 customer.customerAddress = "Address"
 customer.customerPhoneNumber = "1234567890"
 orderData.customer = customer
-orderData.payByUsing = ""
 
 ```
 
