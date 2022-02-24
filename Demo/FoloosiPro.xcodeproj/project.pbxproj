@@ -368,6 +368,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.foloosiSDK;
 				PRODUCT_NAME = Foloosi;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -396,6 +397,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.foloosiSDK;
 				PRODUCT_NAME = Foloosi;
 				PROVISIONING_PROFILE_SPECIFIER = "";

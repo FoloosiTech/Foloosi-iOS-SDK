@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/FoloosiSdk-Swift.h</key>
 		<data>
-		rOQ9jex8ZYb086yx6W7dIVgQIXw=
+		9qinFkEdLbTS7Tnb1cCSjouCAFg=
 		</data>
 		<key>Headers/FoloosiSdk.h</key>
 		<data>
@@ -18,35 +18,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HKeTXCsuwPKuzJqDmYANzuWLiQ8=
+		jJUZe+4lN3zAqdoLXbTYhhU1dFU=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
-		p3usmMJ66Itmox1wJdcDzZeaXQ4=
+		8vkmDq00uLdVWEStwtun0LbGNTE=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VnYu311tS0SVy7OsP1geda6Mrl8=
+		3eKtdKgBuN/bA9WQ57XoFadRAps=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MVm++lrx3iJO1tKa23ucZ/jdngQ=
+		LovdhEffmJKQ9omfR5TZxCDQMfc=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EGuT/mAafy8iiPesmELV9h+kJkg=
+		3nPPk7HKLJSDY6oh/vJgqZ8rriI=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		VnYu311tS0SVy7OsP1geda6Mrl8=
+		3eKtdKgBuN/bA9WQ57XoFadRAps=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		MVm++lrx3iJO1tKa23ucZ/jdngQ=
+		LovdhEffmJKQ9omfR5TZxCDQMfc=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		EGuT/mAafy8iiPesmELV9h+kJkg=
+		3nPPk7HKLJSDY6oh/vJgqZ8rriI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,6 +59,10 @@
 		<key>applepayLogo.png</key>
 		<data>
 		Z+KLpHWqt6FaDhv9o/NDI7jWlh0=
+		</data>
+		<key>backArrow.png</key>
+		<data>
+		6Fy5RnuAu77B7T+wDb8qOccU9g0=
 		</data>
 		<key>backButton.png</key>
 		<data>
@@ -108,9 +112,21 @@
 		<data>
 		dyXMhoncJDw/hTLOWHU2P3ZUDJQ=
 		</data>
+		<key>check.png</key>
+		<data>
+		vi5tJdcV+rz/NCFIaYXLawcwPQM=
+		</data>
 		<key>creditcardpay.png</key>
 		<data>
 		6zrT1kYM1vX/HM+a4uXeWad7p7U=
+		</data>
+		<key>downArrow.png</key>
+		<data>
+		l5L2cftT9JHEIn+DoyKtNuadZpI=
+		</data>
+		<key>uncheck.png</key>
+		<data>
+		k67+wwCtiios++AJTV9I+1Tb9Dw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -126,7 +142,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fHK+ZRs6+U04M22jq9Fbwzazllgkbj8SWG3piCtPcL4=
+			Mx7z2XgVLmFRYYgwm3GmEoyXpY4wL0rThQWElcEs9EI=
 			</data>
 		</dict>
 		<key>Headers/FoloosiSdk.h</key>
@@ -140,49 +156,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JDy0pORE8UtCLHO8Pq5/EeWx7LU8tVCl0VRIQZIbwQk=
+			n9+KRrxe/nCyyxnEHgYM6aHtjfRTmIUVudDSTG5c6LI=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AVqlgymv067UAx33XReJP/2CbZhtrHgDJEYH99VbazE=
+			BAoAEmBQnm4XolQdkwFjHffZO7pDSYZhDqMH+h7vtUg=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nZXfhRAqZp96aKQ9UMGjpf0d3wXoJsywyC9wp0FkQ1Q=
+			DGx6IaPwWAQlCkzFbyM/PnH+DQ7eX68NHF9kNfvu368=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CthlUOs4LA3CxKMFPqg/4nA+2q0pT7fBfB9vTAGb0xo=
+			vMJ24iyJNKJokGvd6CNg6tAHjWzukvZ/YoPuf7cVsKg=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AVqlgymv067UAx33XReJP/2CbZhtrHgDJEYH99VbazE=
+			BAoAEmBQnm4XolQdkwFjHffZO7pDSYZhDqMH+h7vtUg=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nZXfhRAqZp96aKQ9UMGjpf0d3wXoJsywyC9wp0FkQ1Q=
+			DGx6IaPwWAQlCkzFbyM/PnH+DQ7eX68NHF9kNfvu368=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CthlUOs4LA3CxKMFPqg/4nA+2q0pT7fBfB9vTAGb0xo=
+			vMJ24iyJNKJokGvd6CNg6tAHjWzukvZ/YoPuf7cVsKg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -204,6 +220,13 @@
 			<key>hash2</key>
 			<data>
 			BsCya0PgvPc+J6YDELuqCLTcf7sb1yCwhS28QxjpTkg=
+			</data>
+		</dict>
+		<key>backArrow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			birEqVYRuOz2DkVycCqvdIiP8vdvXBZfO7bBYqrXW3M=
 			</data>
 		</dict>
 		<key>backButton.png</key>
@@ -290,11 +313,32 @@
 			qK2ylDZTEM+wiaFtxblnk3sxjw6Co2u7eSAGKJPngoQ=
 			</data>
 		</dict>
+		<key>check.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ojF3GurycKs37hjMTMX/ExQiuTnhU2T56GfQ9SNn4ug=
+			</data>
+		</dict>
 		<key>creditcardpay.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			OOL3aBXK87wyZK+zWigsnc4u/iv8vgVDbysEDcrn50A=
+			</data>
+		</dict>
+		<key>downArrow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZfLOXKw9HOiJ7yWg+CJU4wOJWjM+SeO1ybqR0fH95n0=
+			</data>
+		</dict>
+		<key>uncheck.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/WTJlwOpDn7Uooo0dNvmmjdy6cCgx7pZslCg3BSntAw=
 			</data>
 		</dict>
 	</dict>
