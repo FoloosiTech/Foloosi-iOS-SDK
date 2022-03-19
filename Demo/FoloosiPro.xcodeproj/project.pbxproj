@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		187EC20127E60B54004745B4 /* FoloosiSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187EC1FF27E60A82004745B4 /* FoloosiSdk.xcframework */; };
-		187EC20227E60B54004745B4 /* FoloosiSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 187EC1FF27E60A82004745B4 /* FoloosiSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF748893243C63AF00B67AC8 /* Pods_FoloosiPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CB97AF90EFAB87D06D93EB /* Pods_FoloosiPro.framework */; };
 		AFD9C6DE242893CC00F02878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DD242893CC00F02878 /* AppDelegate.swift */; };
 		AFD9C6E0242893CC00F02878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */; };
@@ -25,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				187EC20227E60B54004745B4 /* FoloosiSdk.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,7 +30,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		187EC1FF27E60A82004745B4 /* FoloosiSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FoloosiSdk.xcframework; path = ../../FoloosiSdk.xcframework; sourceTree = "<group>"; };
 		58CB97AF90EFAB87D06D93EB /* Pods_FoloosiPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoloosiPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F11E320FFC32E40418877B6 /* Pods-FoloosiPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoloosiPro.debug.xcconfig"; path = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.debug.xcconfig"; sourceTree = "<group>"; };
 		AD90CF6A21A039F3FB214BEF /* Pods-FoloosiPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoloosiPro.release.xcconfig"; path = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.release.xcconfig"; sourceTree = "<group>"; };
@@ -53,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187EC20127E60B54004745B4 /* FoloosiSdk.xcframework in Frameworks */,
 				AF748893243C63AF00B67AC8 /* Pods_FoloosiPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,7 +85,6 @@
 		AFD9C6DC242893CC00F02878 /* FoloosiPro */ = {
 			isa = PBXGroup;
 			children = (
-				187EC1FF27E60A82004745B4 /* FoloosiSdk.xcframework */,
 				AF5D8BD2243637D6006A0B43 /* Foloosi.entitlements */,
 				AFD9C6DD242893CC00F02878 /* AppDelegate.swift */,
 				AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */,
@@ -124,6 +118,7 @@
 				AFD9C6D7242893CC00F02878 /* Frameworks */,
 				AFD9C6D8242893CC00F02878 /* Resources */,
 				AF79D33D24B5B4C900EF6277 /* Embed Frameworks */,
+				0AC598CE9A95982D0605AC8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,6 +176,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0AC598CE9A95982D0605AC8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		74CF7B359FFD35E5AFF664E1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

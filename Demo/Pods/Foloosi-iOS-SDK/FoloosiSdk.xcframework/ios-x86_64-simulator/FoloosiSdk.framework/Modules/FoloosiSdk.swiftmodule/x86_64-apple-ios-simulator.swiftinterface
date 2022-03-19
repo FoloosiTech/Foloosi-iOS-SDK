@@ -1,0 +1,59 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FoloosiSdk
+@_exported import FoloosiSdk
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+public class FoloosiPay {
+  public init()
+  public static func initSDK(merchantKey: Swift.String, withDelegate: FoloosiSdk.FoloosiDelegate?)
+  public static func makePayment(orderData: FoloosiSdk.OrderData?)
+  public static func getDeletegate() -> FoloosiSdk.FoloosiDelegate?
+  @objc deinit
+}
+public class OrderData {
+  public var orderTitle: Swift.String?
+  public var orderDescription: Swift.String?
+  public var orderAmount: Swift.Double?
+  public var orderId: Swift.String?
+  public var currencyCode: Swift.String?
+  public var customColor: Swift.String?
+  public var customer: FoloosiSdk.Customer?
+  public var state: Swift.String?
+  public var country: Swift.String?
+  public var postalCode: Swift.String?
+  public var customerUniqueReference: Swift.String?
+  public init()
+  @objc deinit
+}
+public protocol FoloosiDelegate {
+  func onPaymentError(descriptionOfError: Swift.String)
+  func onPaymentSuccess(paymentId: Swift.String)
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public func getSingleTapGesture(target: Any?, selector: ObjectiveC.Selector) -> UIKit.UITapGestureRecognizer
+}
+extension Foundation.URL {
+  public var queryParameters: [Swift.String : Swift.String]? {
+    get
+  }
+}
+public class Customer {
+  public var customerName: Swift.String?
+  public var customerEmail: Swift.String?
+  public var customerPhoneNumber: Swift.String?
+  public var customerPhoneCode: Swift.String?
+  public var customerAddress: Swift.String?
+  public var customerCity: Swift.String?
+  public init()
+  @objc deinit
+}
+public class FLog {
+  public init()
+  public static func setLogVisible(debug: Swift.Bool)
+  @objc deinit
+}
