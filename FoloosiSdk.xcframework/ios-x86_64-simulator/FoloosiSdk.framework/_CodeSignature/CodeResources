@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/FoloosiSdk-Swift.h</key>
 		<data>
-		9qinFkEdLbTS7Tnb1cCSjouCAFg=
+		VUoKrdxIeAx5SBKbBcEJwhzDfrc=
 		</data>
 		<key>Headers/FoloosiSdk.h</key>
 		<data>
@@ -18,39 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uwWh47PvYIhb0pPtzO34EP01PHk=
+		cm51mWw4RF27Dq4A8qtQ2RFTkV4=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
-		cbrYHSbqdNwA5hjwpWc68UIGafo=
+		5SjQwL50KaHBJSdr6iCh+BQNvrk=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3eKtdKgBuN/bA9WQ57XoFadRAps=
+		4+aGFQ358PTdt1TWghSgA+OkMw0=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LovdhEffmJKQ9omfR5TZxCDQMfc=
+		NbU4rX5yeHCAt0ty5onl31die6E=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hJpS+vL/ALyLkcgn2N7F6qgKGME=
-		</data>
-		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		3eKtdKgBuN/bA9WQ57XoFadRAps=
-		</data>
-		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		LovdhEffmJKQ9omfR5TZxCDQMfc=
-		</data>
-		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		hJpS+vL/ALyLkcgn2N7F6qgKGME=
+		0hfe56wx3f6pCYWEqoB9UpVHQRo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		VSkAKcRxDcbtUJmJgyiPGfrWlCU=
+		</data>
+		<key>SaveCardListCell.nib</key>
+		<data>
+		bqD1HY8FTm4roBMzTNhTL2VCkSQ=
 		</data>
 		<key>applebutton.png</key>
 		<data>
@@ -120,9 +112,25 @@
 		<data>
 		6zrT1kYM1vX/HM+a4uXeWad7p7U=
 		</data>
+		<key>delete_card.jpg</key>
+		<data>
+		41XylxCEe6/xonf4jxX55SbUpGw=
+		</data>
 		<key>downArrow.png</key>
 		<data>
 		l5L2cftT9JHEIn+DoyKtNuadZpI=
+		</data>
+		<key>save_card.jpg</key>
+		<data>
+		Nsk0Mmc9vRGjDNgYE9L5TzFHf+M=
+		</data>
+		<key>tick_select.png</key>
+		<data>
+		1A6Yb9m9+f8fJuHv10duEl6xpP0=
+		</data>
+		<key>tick_unselect.jpg</key>
+		<data>
+		VtvBzD8X2/GJlVx88DoO80G6nh8=
 		</data>
 		<key>uncheck.png</key>
 		<data>
@@ -142,7 +150,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mx7z2XgVLmFRYYgwm3GmEoyXpY4wL0rThQWElcEs9EI=
+			gaM6q93diJTE28C7mFhNjRRlg9yoi6E/ZxiBj1xtRcM=
 			</data>
 		</dict>
 		<key>Headers/FoloosiSdk.h</key>
@@ -156,49 +164,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1naLSW+r6E4UKvJY9e2k4ulvL9pDYEaJbZJIaiWHk0I=
+			plTEONdQDPmGzTGMz57F2ZwCyBjtxYEDPb/kAY20r0w=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BAoAEmBQnm4XolQdkwFjHffZO7pDSYZhDqMH+h7vtUg=
+			ih14H/eD6JGtYjpUwribOp61pqqXMa2VmmdR+XvMyxQ=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DGx6IaPwWAQlCkzFbyM/PnH+DQ7eX68NHF9kNfvu368=
+			HXlV5195nlCe5GVwXaZOFEc9rVcKzxtb+jjeM/oOA3E=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cHyA/Ibhq31Cy6M8i2qXaWKdGkt7IByaV1dlZiOws8A=
-			</data>
-		</dict>
-		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BAoAEmBQnm4XolQdkwFjHffZO7pDSYZhDqMH+h7vtUg=
-			</data>
-		</dict>
-		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DGx6IaPwWAQlCkzFbyM/PnH+DQ7eX68NHF9kNfvu368=
-			</data>
-		</dict>
-		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cHyA/Ibhq31Cy6M8i2qXaWKdGkt7IByaV1dlZiOws8A=
+			VVeMhTBierEPziDKmGEv2PFm98LH25S/tV5b75A0D3Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -206,6 +193,13 @@
 			<key>hash2</key>
 			<data>
 			JEgPFfA1mCOrw05WLgF+MHpCXpB1CnCcrcxA8q3eXsM=
+			</data>
+		</dict>
+		<key>SaveCardListCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sbvq/3p06tyJmPB5yP25Fxk3ETL6NlIeAXFPxDWnCmg=
 			</data>
 		</dict>
 		<key>applebutton.png</key>
@@ -327,11 +321,39 @@
 			OOL3aBXK87wyZK+zWigsnc4u/iv8vgVDbysEDcrn50A=
 			</data>
 		</dict>
+		<key>delete_card.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ViHEx3pt5LhhKuO19pVQIEuYyzstIB2u/63pIgTAXPM=
+			</data>
+		</dict>
 		<key>downArrow.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ZfLOXKw9HOiJ7yWg+CJU4wOJWjM+SeO1ybqR0fH95n0=
+			</data>
+		</dict>
+		<key>save_card.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5silJOnkAC84gn4jw08HOck0NZ/y/Yjkpv3E2m+7wgw=
+			</data>
+		</dict>
+		<key>tick_select.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pkpf5dYtJKP8OoUlgOdLgwMKt3eA+vaUO1sVpN5utuE=
+			</data>
+		</dict>
+		<key>tick_unselect.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dTueWGaDZmbQXTDQJgz7m1norcK746cp3OwBT9WwWGg=
 			</data>
 		</dict>
 		<key>uncheck.png</key>

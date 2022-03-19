@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     @IBAction func PayBtnTapped(_ sender: Any) {
         let amount = amountTextField.text
         if let value = Double(amount ?? "0.0") {
-            if amount == "" || value < 21 {
+            if amount == "" || value <= 0 {
                 errorAlert(message: "Please enter valid amount")
             } else {
                 FLog.setLogVisible(debug: true)
@@ -45,6 +45,7 @@ class ViewController: UIViewController {
                 orderData.state = "TamilNadu"
                 orderData.country = "USA"
                 orderData.orderDescription = "Order Description"
+                orderData.customerUniqueReference = "Customer Unique Reference"
                 let customer = Customer()
                 customer.customerAddress = "Address"
                 customer.customerCity = "City Name"

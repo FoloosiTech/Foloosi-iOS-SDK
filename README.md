@@ -3,7 +3,7 @@
 ## Step - 1 - Add Dependency
 
 ```
-pod 'Foloosi-iOS-SDK', '~> 1.3.4'
+pod 'Foloosi-iOS-SDK', '~> 1.3.5'
 pod update
 ```
 
@@ -37,6 +37,7 @@ orderData.orderDescription = ""  // any description.
 orderData.postalCode = "6000032" 
 orderData.state = "TamilNadu"
 orderData.country = "IN"
+orderData.customerUniqueReference = ""  // unique customer reference. 
 let customer = Customer()
 customer.customerEmail = "email@gmail.com"
 customer.customerName = "name"
