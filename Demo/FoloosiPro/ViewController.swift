@@ -28,6 +28,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func PayBtnTapped(_ sender: Any) {
+        
+        //1. Create Order Data Object with necessary inputs and make Payment
+        
         let amount = amountTextField.text
         if let value = Double(amount ?? "0.0") {
             if amount == "" || value <= 0 {
@@ -57,6 +60,12 @@ class ViewController: UIViewController {
                 FoloosiPay.makePayment(orderData: orderData)
             }
         }
+        
+        /*----------------------OR--------------------*/
+        
+        //2. Pass Reference Token and make Payment
+        //FoloosiPay.makePaymentWithReferenceToken("YOUR_REFERENCE_TOKEN") // order reference token
+
     }
     
     func errorAlert(message: String) {

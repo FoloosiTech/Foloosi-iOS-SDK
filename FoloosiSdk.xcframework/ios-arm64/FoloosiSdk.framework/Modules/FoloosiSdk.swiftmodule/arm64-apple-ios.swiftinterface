@@ -12,6 +12,7 @@ public class FoloosiPay {
   public init()
   public static func initSDK(merchantKey: Swift.String, withDelegate: FoloosiSdk.FoloosiDelegate?)
   public static func makePayment(orderData: FoloosiSdk.OrderData?)
+  public static func makePaymentWithReferenceToken(_ reference_token: Swift.String?)
   public static func getDeletegate() -> FoloosiSdk.FoloosiDelegate?
   @objc deinit
 }
