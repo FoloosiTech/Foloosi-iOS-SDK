@@ -60,10 +60,11 @@ class ViewController: UIViewController {
                 FoloosiPay.makePayment(orderData: orderData)
             }
         }
-        
-        /*----------------------OR--------------------*/
+    
+        /* --------------- OR --------------- */
         
         //2. Pass Reference Token and make Payment
+        
         //FoloosiPay.makePaymentWithReferenceToken("YOUR_REFERENCE_TOKEN") // order reference token
 
     }

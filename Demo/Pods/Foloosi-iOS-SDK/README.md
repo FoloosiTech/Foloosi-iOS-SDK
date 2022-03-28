@@ -3,7 +3,7 @@
 ## Step - 1 - Add Dependency
 
 ```
-pod 'Foloosi-iOS-SDK', '~> 1.3.5'
+pod 'Foloosi-iOS-SDK', '~> 1.3.6'
 pod update
 ```
 
@@ -22,7 +22,9 @@ To initialize the SDK add the below line of code with the merchant key you retri
 FoloosiPay.initSDK("Your Unique Merchant Key",withDelegate: Self)
 ```
 
-## Step - 4 - Create Order Data Object with necessary inputs
+## Step - 4 
+
+Create Order Data Object with necessary inputs and make Payment
 
 You can create the order data or payment input with our OrderData Model class. Here you need to provide order id, title, descripiton, currency code, order amount and customer details like name, email, mobile number.
 
@@ -45,22 +47,19 @@ customer.customerCity = "City"
 customer.customerAddress = "Address"
 customer.customerPhoneNumber = "1234567890"
 orderData.customer = customer
-
-```
-
-## Step - 5 - Make Transaction with Foloosi
-
-Use the below line of code to make the payment with the order data you created in Step - 4
-
-```
-
 FoloosiPay.makePayment(orderData: orderData)
 
+
+Pass Reference Token and make Payment
+
+FoloosiPay.makePaymentWithReferenceToken("YOUR_REFERENCE_TOKEN") // order reference token
+
+
 ```
 
-## Step - 6 - Implement Payment Delegate
+## Step - 5 - Implement Payment Delegate
 
-Implement our payment delegate to receive the payment result for the payment we made in Step - 5. Use the below code to obtain the payment result.
+Implement our payment delegate to receive the payment result for the payment we made in Step - 4. Use the below code to obtain the payment result.
 
 ```
 

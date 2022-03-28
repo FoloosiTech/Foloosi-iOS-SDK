@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		186F7DBB27EE00EE00153335 /* FoloosiSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186F7DB927EE00E800153335 /* FoloosiSdk.xcframework */; };
-		186F7DBC27EE00EE00153335 /* FoloosiSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 186F7DB927EE00E800153335 /* FoloosiSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF748893243C63AF00B67AC8 /* Pods_FoloosiPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CB97AF90EFAB87D06D93EB /* Pods_FoloosiPro.framework */; };
 		AFD9C6DE242893CC00F02878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DD242893CC00F02878 /* AppDelegate.swift */; };
 		AFD9C6E0242893CC00F02878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */; };
@@ -18,22 +16,7 @@
 		AFD9C6EA242893CD00F02878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD9C6E8242893CD00F02878 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		AF79D33D24B5B4C900EF6277 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				186F7DBC27EE00EE00153335 /* FoloosiSdk.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		186F7DB927EE00E800153335 /* FoloosiSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FoloosiSdk.xcframework; path = ../../FoloosiSdk.xcframework; sourceTree = "<group>"; };
 		58CB97AF90EFAB87D06D93EB /* Pods_FoloosiPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoloosiPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F11E320FFC32E40418877B6 /* Pods-FoloosiPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoloosiPro.debug.xcconfig"; path = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.debug.xcconfig"; sourceTree = "<group>"; };
 		AD90CF6A21A039F3FB214BEF /* Pods-FoloosiPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoloosiPro.release.xcconfig"; path = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.release.xcconfig"; sourceTree = "<group>"; };
@@ -53,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186F7DBB27EE00EE00153335 /* FoloosiSdk.xcframework in Frameworks */,
 				AF748893243C63AF00B67AC8 /* Pods_FoloosiPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,7 +72,6 @@
 		AFD9C6DC242893CC00F02878 /* FoloosiPro */ = {
 			isa = PBXGroup;
 			children = (
-				186F7DB927EE00E800153335 /* FoloosiSdk.xcframework */,
 				AF5D8BD2243637D6006A0B43 /* Foloosi.entitlements */,
 				AFD9C6DD242893CC00F02878 /* AppDelegate.swift */,
 				AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */,
@@ -123,7 +104,6 @@
 				AFD9C6D6242893CC00F02878 /* Sources */,
 				AFD9C6D7242893CC00F02878 /* Frameworks */,
 				AFD9C6D8242893CC00F02878 /* Resources */,
-				AF79D33D24B5B4C900EF6277 /* Embed Frameworks */,
 				0AC598CE9A95982D0605AC8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
