@@ -105,5 +105,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/Foloosi-iOS-SDK/FoloosiSdk.xcframework" "Foloosi-iOS-SDK" "framework" "ios-x86_64-simulator" "ios-arm64"
+install_xcframework "${PODS_ROOT}/Foloosi-iOS-SDK/FoloosiSdk.xcframework" "Foloosi-iOS-SDK" "framework" "ios-arm64" "ios-x86_64-simulator"
 
