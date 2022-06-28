@@ -3,7 +3,7 @@
 ## Step - 1 - Add Dependency
 
 ```
-pod 'Foloosi-iOS-SDK', '~> 1.3.9'
+pod 'Foloosi-iOS-SDK', '~> 1.4.1'
 pod update
 ```
 
@@ -64,13 +64,16 @@ Implement our payment delegate to receive the payment result for the payment we 
 ```
 
 extension ViewController: FoloosiDelegate{
-    func onPaymentError(descriptionOfError: String) {
+
+    func onPaymentError(descriptionOfError: String, transactionId: String) {
         // Failure Callback.
     }
     
-    func onPaymentSuccess(paymentId: String) {
+    
+    func onPaymentSuccess(transactionId: String) {
          // Success Callback
     }
+    
 }
 
 ```
