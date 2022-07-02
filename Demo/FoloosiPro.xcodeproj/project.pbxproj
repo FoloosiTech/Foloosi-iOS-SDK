@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1889FB70287076C00082D39B /* FoloosiSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1889FB6F287076C00082D39B /* FoloosiSdk.xcframework */; };
 		18E5BD222832949300293B40 /* Pods_FoloosiPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D652A17B2854C89D78CF4E /* Pods_FoloosiPro.framework */; };
 		AFD9C6DE242893CC00F02878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DD242893CC00F02878 /* AppDelegate.swift */; };
 		AFD9C6E0242893CC00F02878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		14D652A17B2854C89D78CF4E /* Pods_FoloosiPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoloosiPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1889FB6F287076C00082D39B /* FoloosiSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FoloosiSdk.xcframework; path = ../../FoloosiSdk.xcframework; sourceTree = "<group>"; };
 		AF5D8BD2243637D6006A0B43 /* Foloosi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Foloosi.entitlements; sourceTree = "<group>"; };
 		AFD9C6DA242893CC00F02878 /* Foloosi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foloosi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD9C6DD242893CC00F02878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1889FB70287076C00082D39B /* FoloosiSdk.xcframework in Frameworks */,
 				18E5BD222832949300293B40 /* Pods_FoloosiPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				AF5D8BD2243637D6006A0B43 /* Foloosi.entitlements */,
+				1889FB6F287076C00082D39B /* FoloosiSdk.xcframework */,
 				AFD9C6DD242893CC00F02878 /* AppDelegate.swift */,
 				AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */,
 				AFD9C6E1242893CC00F02878 /* ViewController.swift */,
@@ -386,7 +390,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.1;
+				MARKETING_VERSION = 1.4.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.foloosiSDK;
 				PRODUCT_NAME = Foloosi;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -415,7 +419,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.1;
+				MARKETING_VERSION = 1.4.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.foloosiSDK;
 				PRODUCT_NAME = Foloosi;
 				PROVISIONING_PROFILE_SPECIFIER = "";

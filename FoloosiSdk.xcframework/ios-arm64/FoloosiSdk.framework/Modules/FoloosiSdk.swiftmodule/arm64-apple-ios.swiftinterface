@@ -32,8 +32,8 @@ public class OrderData {
   @objc deinit
 }
 public protocol FoloosiDelegate {
-  func onPaymentError(descriptionOfError: Swift.String, transactionId: Swift.String)
-  func onPaymentSuccess(transactionId: Swift.String)
+  func onPaymentError(descriptionOfError: Swift.String, transactionId: Swift.String, responseCode: Swift.String)
+  func onPaymentSuccess(transactionId: Swift.String, responseCode: Swift.String)
 }
 extension UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public func getSingleTapGesture(target: Any?, selector: ObjectiveC.Selector) -> UIKit.UITapGestureRecognizer

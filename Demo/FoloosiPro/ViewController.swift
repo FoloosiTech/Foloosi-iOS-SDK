@@ -80,13 +80,15 @@ class ViewController: UIViewController {
 
 
 
-extension ViewController: FoloosiDelegate{
-    func onPaymentError(descriptionOfError: String, transactionId: String) {
+extension ViewController: FoloosiDelegate {
+    func onPaymentError(descriptionOfError: String, transactionId: String, responseCode: String) {
         print(descriptionOfError)
         print(transactionId)
+        print(responseCode)
     }
     
-    func onPaymentSuccess(transactionId: String) {
+    func onPaymentSuccess(transactionId: String, responseCode: String) {
         print(transactionId)
+        print(responseCode)
     }
 }
