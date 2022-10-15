@@ -7,34 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18E5BD222832949300293B40 /* Pods_FoloosiPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D652A17B2854C89D78CF4E /* Pods_FoloosiPro.framework */; };
+		8428214128FAC3FA00B6DDE3 /* Pods_FoloosiPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D652A17B2854C89D78CF4E /* Pods_FoloosiPro.framework */; };
 		AFD9C6DE242893CC00F02878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DD242893CC00F02878 /* AppDelegate.swift */; };
-		AFD9C6E0242893CC00F02878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */; };
 		AFD9C6E2242893CC00F02878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6E1242893CC00F02878 /* ViewController.swift */; };
 		AFD9C6E5242893CC00F02878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD9C6E3242893CC00F02878 /* Main.storyboard */; };
 		AFD9C6E7242893CD00F02878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD9C6E6242893CD00F02878 /* Assets.xcassets */; };
 		AFD9C6EA242893CD00F02878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD9C6E8242893CD00F02878 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		183837F1286B432C00545FF4 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		14D652A17B2854C89D78CF4E /* Pods_FoloosiPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoloosiPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5D8BD2243637D6006A0B43 /* Foloosi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Foloosi.entitlements; sourceTree = "<group>"; };
 		AFD9C6DA242893CC00F02878 /* Foloosi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foloosi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD9C6DD242893CC00F02878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AFD9C6E1242893CC00F02878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFD9C6E4242893CC00F02878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFD9C6E6242893CD00F02878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E5BD222832949300293B40 /* Pods_FoloosiPro.framework in Frameworks */,
+				8428214128FAC3FA00B6DDE3 /* Pods_FoloosiPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +72,6 @@
 			children = (
 				AF5D8BD2243637D6006A0B43 /* Foloosi.entitlements */,
 				AFD9C6DD242893CC00F02878 /* AppDelegate.swift */,
-				AFD9C6DF242893CC00F02878 /* SceneDelegate.swift */,
 				AFD9C6E1242893CC00F02878 /* ViewController.swift */,
 				AFD9C6E3242893CC00F02878 /* Main.storyboard */,
 				AFD9C6E6242893CD00F02878 /* Assets.xcassets */,
@@ -118,7 +102,6 @@
 				AFD9C6D7242893CC00F02878 /* Frameworks */,
 				AFD9C6D8242893CC00F02878 /* Resources */,
 				263258F48BA979931D276764 /* [CP] Embed Pods Frameworks */,
-				183837F1286B432C00545FF4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,7 +207,6 @@
 			files = (
 				AFD9C6E2242893CC00F02878 /* ViewController.swift in Sources */,
 				AFD9C6DE242893CC00F02878 /* AppDelegate.swift in Sources */,
-				AFD9C6E0242893CC00F02878 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,12 +363,12 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = FoloosiPro/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.5;
+				MARKETING_VERSION = 1.4.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.foloosiSDK;
 				PRODUCT_NAME = Foloosi;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -413,12 +395,12 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = FoloosiPro/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.5;
+				MARKETING_VERSION = 1.4.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.foloosiSDK;
 				PRODUCT_NAME = Foloosi;
 				PROVISIONING_PROFILE_SPECIFIER = "";

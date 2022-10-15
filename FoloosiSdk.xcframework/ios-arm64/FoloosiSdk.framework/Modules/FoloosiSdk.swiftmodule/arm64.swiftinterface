@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FoloosiSdk
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FoloosiSdk
 import CoreVideo
 @_exported import FoloosiSdk
 import Foundation
@@ -10,7 +9,6 @@ import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
-import _StringProcessing
 public class FoloosiPay {
   public init()
   public static func initSDK(merchantKey: Swift.String, withDelegate: FoloosiSdk.FoloosiDelegate?)

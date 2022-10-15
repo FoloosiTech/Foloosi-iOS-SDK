@@ -6,6 +6,6 @@ framework module FoloosiSdk {
 }
 
 module FoloosiSdk.Swift {
-  header "FoloosiSdk-Swift.h"
-  requires objc
+    header "FoloosiSdk-Swift.h"
+    requires objc
 }

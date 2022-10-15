@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/FoloosiSdk-Swift.h</key>
 		<data>
-		GoifCEDycUVkzd1o1v++6pSTaV8=
+		z8S7UdZVXzIIRlBThdDcVrDK8tg=
 		</data>
 		<key>Headers/FoloosiSdk.h</key>
 		<data>
@@ -18,39 +18,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L2pcGEH9cjvBd6E6fEFyzjIq52A=
+		keqZKp4amR+lmKu5jbYvUCyW9rU=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
-		p8mOr6ueufqq1NorzZjNfIIEMmA=
-		</data>
-		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		stkZ5haLXbOqcIpV40ehVzIswwM=
-		</data>
-		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		+YfBK2c3nZTp/LqdDJijD1nIDvA=
+		NIwhkOpVUAUBSzxf8Rs3fPqBL0o=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		RZVD1SI51Yn/MvqPl1wIDe6LaZo=
+		zcrDKWyptt/I27BBXeWMrkE1CJw=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+YfBK2c3nZTp/LqdDJijD1nIDvA=
+		ye4ytAt4R8enCeXXKKUdqbdtstU=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nwUD2YOA6kdbF78mQCaHiOzSjCg=
+		NuCP1RiZbXq+JIm1Pct9ea/X1GI=
+		</data>
+		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftdoc</key>
+		<data>
+		zcrDKWyptt/I27BBXeWMrkE1CJw=
+		</data>
+		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftinterface</key>
+		<data>
+		ye4ytAt4R8enCeXXKKUdqbdtstU=
+		</data>
+		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftmodule</key>
+		<data>
+		NuCP1RiZbXq+JIm1Pct9ea/X1GI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		kglpGk4IrxlLd5KDJpCIsrN+Hwk=
+		VSkAKcRxDcbtUJmJgyiPGfrWlCU=
 		</data>
 		<key>SaveCardListCell.nib</key>
 		<data>
-		JH5EgNIwUmWmjbeeE5tKSpCYF9k=
+		bqD1HY8FTm4roBMzTNhTL2VCkSQ=
 		</data>
 		<key>applebutton.png</key>
 		<data>
@@ -162,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YNWQMc4QhpWfxLvCXaJqW6s7aQuVZ30O/0pmcTAnkeY=
+			LiXwTzMDPCZAIV9EgAtEu8EVCR7lejleA04kIPw2fNo=
 			</data>
 		</dict>
 		<key>Headers/FoloosiSdk.h</key>
@@ -176,56 +180,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fiyeF62R702CnZQmcasvuv7qPJHBlrZnAHROfYcxa/A=
-			</data>
-		</dict>
-		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wj7egeWHvjc22oCnGhHYANGOgqfwKQPv9krij7W5Eh4=
-			</data>
-		</dict>
-		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OD7oYs6lVH6FMvVh4/2lGoIWvYXRPzqoTtIfmU7TYls=
+			Gi/bkuQBLvr5reGnwVCXPNiUt9A30IBpdXtnhxhAi3M=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jKtpccvnvSqdUo+0fWBAJ9cHAVo+nO3VKX+b8pYfLak=
+			gF4m8UqZxOyQL9eXqArlrWmX/nldauCg7F/7WsKx7Jw=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OD7oYs6lVH6FMvVh4/2lGoIWvYXRPzqoTtIfmU7TYls=
+			HjJjMx3860dfH6i7T4u9gI3QHB0PLNZ5oWu7Rs+8PGc=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dzqJhrtG8q0/qfQ83ct6HbjO/ZXIiu8ZIurnffOledk=
+			kjJshvgpRIqIqBfvufYynp6otAtc5OSF/EDm0mpbHqM=
+			</data>
+		</dict>
+		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gF4m8UqZxOyQL9eXqArlrWmX/nldauCg7F/7WsKx7Jw=
+			</data>
+		</dict>
+		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HjJjMx3860dfH6i7T4u9gI3QHB0PLNZ5oWu7Rs+8PGc=
+			</data>
+		</dict>
+		<key>Modules/FoloosiSdk.swiftmodule/x86_64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kjJshvgpRIqIqBfvufYynp6otAtc5OSF/EDm0mpbHqM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			drzb6931MshtPlzoclqYXCemR1p6HTAcbIQIcMM0fY8=
+			JEgPFfA1mCOrw05WLgF+MHpCXpB1CnCcrcxA8q3eXsM=
 			</data>
 		</dict>
 		<key>SaveCardListCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DjvlQ0oB2HNCjVwVQ+PtuwqwR2/cr4aj40cxq9D8agA=
+			sbvq/3p06tyJmPB5yP25Fxk3ETL6NlIeAXFPxDWnCmg=
 			</data>
 		</dict>
 		<key>applebutton.png</key>
