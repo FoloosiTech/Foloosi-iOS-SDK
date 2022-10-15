@@ -19,7 +19,7 @@ import FoloosiSdk
 To initialize the SDK add the below line of code with the merchant key you retrieved from foloosi merchant panel. If you don't have a merchant key create new one.
 
 ```
-FoloosiPay.initSDK("Your Unique Merchant Key",withDelegate: Self)
+FoloosiPay.initSDK(merchantKey:"Your Unique Merchant Key",withDelegate: self)
 ```
 
 ## Step - 4 
