@@ -11,7 +11,7 @@ import WebKit
 import _Concurrency
 public class FoloosiPay {
   public init()
-  public static func initSDK(merchantKey: Swift.String, withDelegate: FoloosiSdk.FoloosiDelegate?)
+  public static func initSDK(initData: FoloosiSdk.InitData?, withDelegate: FoloosiSdk.FoloosiDelegate?)
   public static func makePayment(orderData: FoloosiSdk.OrderData?)
   public static func makePaymentWithReferenceToken(_ reference_token: Swift.String?)
   public static func getDeletegate() -> FoloosiSdk.FoloosiDelegate?
@@ -23,7 +23,6 @@ public class OrderData {
   public var orderAmount: Swift.Double?
   public var orderId: Swift.String?
   public var currencyCode: Swift.String?
-  public var customColor: Swift.String?
   public var customer: FoloosiSdk.Customer?
   public var state: Swift.String?
   public var country: Swift.String?
@@ -43,6 +42,12 @@ extension Foundation.URL {
   public var queryParameters: [Swift.String : Swift.String]? {
     get
   }
+}
+public class InitData {
+  public var merchantKey: Swift.String?
+  public var customColor: Swift.String?
+  public init()
+  @objc deinit
 }
 public class Customer {
   public var customerName: Swift.String?

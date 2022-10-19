@@ -10,10 +10,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        initiateFoloosiPay()
         NotificationCenter.default.addObserver(self, selector: #selector(handelingKeyboard), name:UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(handelingKeyboard), name:UIResponder.keyboardWillHideNotification, object: nil)
         // Do any additional setup after loading the view.
-        
+    }
+    
+    func initiateFoloosiPay(){
+        let initData = InitData()
+        initData.merchantKey = "Merchant_Key" //"Your Unique Merchant Key"
+        initData.customColor = "#122333"  // It must be valid 6 digit hexadecimal color to make payment page loading color as app color.
+        FoloosiPay.initSDK(initData: initData, withDelegate: self)
     }
     
     @objc func handelingKeyboard(notification: Notification) {
@@ -37,11 +44,9 @@ class ViewController: UIViewController {
                 errorAlert(message: "Please enter valid amount")
             } else {
                 FLog.setLogVisible(debug: true)
-                FoloosiPay.initSDK(merchantKey:"Merchant_Key", withDelegate: self)
                 let orderData = OrderData()
                 orderData.orderTitle = "OrderTitle"
                 orderData.currencyCode = "INR"
-                orderData.customColor = "#0000FF"
                 orderData.orderAmount = value
                 orderData.orderId = "Order Id"
                 orderData.postalCode = "6000032"
