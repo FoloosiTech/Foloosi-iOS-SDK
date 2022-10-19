@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		844AD4362900254D00F14A01 /* FoloosiSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844AD4342900254600F14A01 /* FoloosiSdk.xcframework */; };
-		844AD4372900254D00F14A01 /* FoloosiSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 844AD4342900254600F14A01 /* FoloosiSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		85A84EAB000A40A3CE192602 /* Pods_FoloosiPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53998E5F5B558442D6D79A80 /* Pods_FoloosiPro.framework */; };
 		AFD9C6DE242893CC00F02878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6DD242893CC00F02878 /* AppDelegate.swift */; };
 		AFD9C6E2242893CC00F02878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9C6E1242893CC00F02878 /* ViewController.swift */; };
@@ -24,7 +22,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				844AD4372900254D00F14A01 /* FoloosiSdk.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,7 +32,6 @@
 		53998E5F5B558442D6D79A80 /* Pods_FoloosiPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoloosiPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		761247071E77C16317C112C5 /* Pods-FoloosiPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoloosiPro.debug.xcconfig"; path = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.debug.xcconfig"; sourceTree = "<group>"; };
 		824D38836DD2E29B1548D3BF /* Pods-FoloosiPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoloosiPro.release.xcconfig"; path = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.release.xcconfig"; sourceTree = "<group>"; };
-		844AD4342900254600F14A01 /* FoloosiSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FoloosiSdk.xcframework; sourceTree = "<group>"; };
 		AF5D8BD2243637D6006A0B43 /* Foloosi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Foloosi.entitlements; sourceTree = "<group>"; };
 		AFD9C6DA242893CC00F02878 /* Foloosi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foloosi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD9C6DD242893CC00F02878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844AD4362900254D00F14A01 /* FoloosiSdk.xcframework in Frameworks */,
 				85A84EAB000A40A3CE192602 /* Pods_FoloosiPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,7 +83,6 @@
 		AFD9C6DC242893CC00F02878 /* FoloosiPro */ = {
 			isa = PBXGroup;
 			children = (
-				844AD4342900254600F14A01 /* FoloosiSdk.xcframework */,
 				AF5D8BD2243637D6006A0B43 /* Foloosi.entitlements */,
 				AFD9C6DD242893CC00F02878 /* AppDelegate.swift */,
 				AFD9C6E1242893CC00F02878 /* ViewController.swift */,
@@ -121,6 +115,7 @@
 				AFD9C6D7242893CC00F02878 /* Frameworks */,
 				AFD9C6D8242893CC00F02878 /* Resources */,
 				844AD4382900254D00F14A01 /* Embed Frameworks */,
+				23C621C8EC9CB9444197D694 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +173,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		23C621C8EC9CB9444197D694 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9FE3BE67732E12BFA7FF70B5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

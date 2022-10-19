@@ -3,35 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		14B6DE64EB6A7BFB0D5FE3071C216EE1 /* Foloosi-iOS-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 98200D991EE6CB948737328EB218041D /* Build configuration list for PBXAggregateTarget "Foloosi-iOS-SDK" */;
+			buildPhases = (
+				E7008D513FE8BED20F7B0BF3C881D090 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "Foloosi-iOS-SDK";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		478665000A201EFE55957E8753E617D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		58289710B01F81E08EEDB35063E135E8 /* Pods-FoloosiPro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2720234545C0A139F71AA51797796F53 /* Pods-FoloosiPro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7414FE34DA5A4CBB87C5DFDB9F07218 /* Pods-FoloosiPro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 614461C7C86D248C6773EE94E88D7AE7 /* Pods-FoloosiPro-dummy.m */; };
+		0009DA4BDD7DCCD465189ABDCB1598A5 /* Pods-FoloosiPro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D4F344C8124D815125111AFCB61C76 /* Pods-FoloosiPro-dummy.m */; };
+		7CD9595091BA9DD0AE316906BF74464C /* Pods-FoloosiPro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE76DAA603B242CDAF5519820229D13 /* Pods-FoloosiPro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82BD1546D8385083C1DC1BADEBEBB804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D58A5BF21A5C211B8D8FB6DBD2CDBEED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B6DE64EB6A7BFB0D5FE3071C216EE1;
+			remoteInfo = "Foloosi-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		23FBB2643EA2184E9F66238B9124AA95 /* Pods-FoloosiPro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoloosiPro.modulemap"; sourceTree = "<group>"; };
-		24F95CB20B101D18F6C5C3AED280D3DB /* Pods-FoloosiPro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoloosiPro-acknowledgements.plist"; sourceTree = "<group>"; };
-		2720234545C0A139F71AA51797796F53 /* Pods-FoloosiPro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoloosiPro-umbrella.h"; sourceTree = "<group>"; };
-		4CECE0EEDE30A065407F03E6A3627557 /* Pods-FoloosiPro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoloosiPro-Info.plist"; sourceTree = "<group>"; };
-		614461C7C86D248C6773EE94E88D7AE7 /* Pods-FoloosiPro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoloosiPro-dummy.m"; sourceTree = "<group>"; };
+		0CE76DAA603B242CDAF5519820229D13 /* Pods-FoloosiPro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoloosiPro-umbrella.h"; sourceTree = "<group>"; };
+		16EEC5EF4D15139C4074CD1639D8AEB4 /* Pods-FoloosiPro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoloosiPro.modulemap"; sourceTree = "<group>"; };
+		18E173EB8311D0F59DEB258BE6DB84BA /* Foloosi-iOS-SDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Foloosi-iOS-SDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		22DFFF0B935D3E324D9ADCE3CC6F2D5C /* Foloosi-iOS-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Foloosi-iOS-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		2FCD73D3DB08D7C0381CD3213289C3EA /* Pods-FoloosiPro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoloosiPro-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39D4F344C8124D815125111AFCB61C76 /* Pods-FoloosiPro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoloosiPro-dummy.m"; sourceTree = "<group>"; };
+		47E3168A16D000D6CCE9E3F8E4A43ED0 /* Pods-FoloosiPro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoloosiPro-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		885015760D2C25840962CA9678C909AF /* Pods-FoloosiPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoloosiPro.debug.xcconfig"; sourceTree = "<group>"; };
+		78524B6D22D383699E86C51FA5FBE446 /* Foloosi-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Foloosi-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		7B4F9419CD8CC5C7A9E4C4F12A98FA44 /* Pods-FoloosiPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoloosiPro.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C5AF01E5B12DFAE0D94F3C97A5AC4774 /* Pods-FoloosiPro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoloosiPro-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D00150D5EF3639F181ECF1660645F43F /* Pods-FoloosiPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoloosiPro.release.xcconfig"; sourceTree = "<group>"; };
+		9FA37F4D74D078B5D03E937FAED12FFF /* Pods-FoloosiPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoloosiPro.debug.xcconfig"; sourceTree = "<group>"; };
+		AE319DCAA287D0E76FEC754BE25A6444 /* Pods-FoloosiPro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoloosiPro-Info.plist"; sourceTree = "<group>"; };
+		C01FD069947F2F55FCB6D53C9B40160C /* FoloosiSdk.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = FoloosiSdk.xcframework; sourceTree = "<group>"; };
+		C6E306ED9095A62B403C8A9EC8085C95 /* Pods-FoloosiPro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoloosiPro-frameworks.sh"; sourceTree = "<group>"; };
 		F6EFBD104F16664C9D2F6B2C76CFD15D /* Pods-FoloosiPro */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FoloosiPro"; path = Pods_FoloosiPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A174F0D9EBA501B36421D8C00925D5B /* Frameworks */ = {
+		EDE95A4D368018FFE83D08119B7C6F32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				478665000A201EFE55957E8753E617D4 /* Foundation.framework in Frameworks */,
+				82BD1546D8385083C1DC1BADEBEBB804 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +74,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7A4E64CC3FF5F726289BC88A61BF4218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E29CF2460DCE43C3363F71FB24C39897 /* Foloosi-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8BB374BEC6D0535FBF73006A24629A8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -54,26 +90,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C232B1395EC263215CF167E9AC073BAE /* Pods-FoloosiPro */ = {
+		BB985D6DB34E0E60078B7BED40F6904C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				23FBB2643EA2184E9F66238B9124AA95 /* Pods-FoloosiPro.modulemap */,
-				C5AF01E5B12DFAE0D94F3C97A5AC4774 /* Pods-FoloosiPro-acknowledgements.markdown */,
-				24F95CB20B101D18F6C5C3AED280D3DB /* Pods-FoloosiPro-acknowledgements.plist */,
-				614461C7C86D248C6773EE94E88D7AE7 /* Pods-FoloosiPro-dummy.m */,
-				4CECE0EEDE30A065407F03E6A3627557 /* Pods-FoloosiPro-Info.plist */,
-				2720234545C0A139F71AA51797796F53 /* Pods-FoloosiPro-umbrella.h */,
-				885015760D2C25840962CA9678C909AF /* Pods-FoloosiPro.debug.xcconfig */,
-				D00150D5EF3639F181ECF1660645F43F /* Pods-FoloosiPro.release.xcconfig */,
+				C01FD069947F2F55FCB6D53C9B40160C /* FoloosiSdk.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3F8FF8B66F516F9FC6A2134698A38C7 /* Pods-FoloosiPro */ = {
+			isa = PBXGroup;
+			children = (
+				16EEC5EF4D15139C4074CD1639D8AEB4 /* Pods-FoloosiPro.modulemap */,
+				2FCD73D3DB08D7C0381CD3213289C3EA /* Pods-FoloosiPro-acknowledgements.markdown */,
+				47E3168A16D000D6CCE9E3F8E4A43ED0 /* Pods-FoloosiPro-acknowledgements.plist */,
+				39D4F344C8124D815125111AFCB61C76 /* Pods-FoloosiPro-dummy.m */,
+				C6E306ED9095A62B403C8A9EC8085C95 /* Pods-FoloosiPro-frameworks.sh */,
+				AE319DCAA287D0E76FEC754BE25A6444 /* Pods-FoloosiPro-Info.plist */,
+				0CE76DAA603B242CDAF5519820229D13 /* Pods-FoloosiPro-umbrella.h */,
+				9FA37F4D74D078B5D03E937FAED12FFF /* Pods-FoloosiPro.debug.xcconfig */,
+				7B4F9419CD8CC5C7A9E4C4F12A98FA44 /* Pods-FoloosiPro.release.xcconfig */,
 			);
 			name = "Pods-FoloosiPro";
 			path = "Target Support Files/Pods-FoloosiPro";
 			sourceTree = "<group>";
 		};
-		CB88DB73B82E43030C9D7D275FB4A59E /* Targets Support Files */ = {
+		C7D5F5FB044532D9CBBB3942C7B14A5D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C232B1395EC263215CF167E9AC073BAE /* Pods-FoloosiPro */,
+				C3F8FF8B66F516F9FC6A2134698A38C7 /* Pods-FoloosiPro */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -83,8 +128,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7A4E64CC3FF5F726289BC88A61BF4218 /* Pods */,
 				8BB374BEC6D0535FBF73006A24629A8E /* Products */,
-				CB88DB73B82E43030C9D7D275FB4A59E /* Targets Support Files */,
+				C7D5F5FB044532D9CBBB3942C7B14A5D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,14 +142,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D372F4444ADD6D849F2756705414C494 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E173EB8311D0F59DEB258BE6DB84BA /* Foloosi-iOS-SDK-xcframeworks.sh */,
+				78524B6D22D383699E86C51FA5FBE446 /* Foloosi-iOS-SDK.debug.xcconfig */,
+				22DFFF0B935D3E324D9ADCE3CC6F2D5C /* Foloosi-iOS-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Foloosi-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		E29CF2460DCE43C3363F71FB24C39897 /* Foloosi-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				BB985D6DB34E0E60078B7BED40F6904C /* Frameworks */,
+				D372F4444ADD6D849F2756705414C494 /* Support Files */,
+			);
+			name = "Foloosi-iOS-SDK";
+			path = "Foloosi-iOS-SDK";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7E91B23639BC29553825C29BED380CAE /* Headers */ = {
+		3EEF02244748BC3C24719CF70B3E5BE8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58289710B01F81E08EEDB35063E135E8 /* Pods-FoloosiPro-umbrella.h in Headers */,
+				7CD9595091BA9DD0AE316906BF74464C /* Pods-FoloosiPro-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,16 +179,17 @@
 /* Begin PBXNativeTarget section */
 		FF7F767AFA1BF1DB99FEDDE4B85DCEA1 /* Pods-FoloosiPro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4993BBDE03BBCC0F363A9187C4A7527 /* Build configuration list for PBXNativeTarget "Pods-FoloosiPro" */;
+			buildConfigurationList = 9A47E530410D94A0248E9D459F651A0E /* Build configuration list for PBXNativeTarget "Pods-FoloosiPro" */;
 			buildPhases = (
-				7E91B23639BC29553825C29BED380CAE /* Headers */,
-				6B76B5C929BC3D28FFB999894CC1C1F2 /* Sources */,
-				2A174F0D9EBA501B36421D8C00925D5B /* Frameworks */,
-				944C904C778D5BFD16494898AEBB61AC /* Resources */,
+				3EEF02244748BC3C24719CF70B3E5BE8 /* Headers */,
+				2CDAA1EF87F9D2D9ED09CD00D4F28194 /* Sources */,
+				EDE95A4D368018FFE83D08119B7C6F32 /* Frameworks */,
+				F4DA5CF9668E0872F7E2E49C487C02B3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D8F8D10AF55F3A4E8AA6081608CACA3A /* PBXTargetDependency */,
 			);
 			name = "Pods-FoloosiPro";
 			productName = Pods_FoloosiPro;
@@ -138,7 +206,7 @@
 				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 11.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -150,13 +218,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				14B6DE64EB6A7BFB0D5FE3071C216EE1 /* Foloosi-iOS-SDK */,
 				FF7F767AFA1BF1DB99FEDDE4B85DCEA1 /* Pods-FoloosiPro */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		944C904C778D5BFD16494898AEBB61AC /* Resources */ = {
+		F4DA5CF9668E0872F7E2E49C487C02B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,21 +234,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E7008D513FE8BED20F7B0BF3C881D090 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Foloosi-iOS-SDK/Foloosi-iOS-SDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Foloosi-iOS-SDK/Foloosi-iOS-SDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Foloosi-iOS-SDK/Foloosi-iOS-SDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6B76B5C929BC3D28FFB999894CC1C1F2 /* Sources */ = {
+		2CDAA1EF87F9D2D9ED09CD00D4F28194 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7414FE34DA5A4CBB87C5DFDB9F07218 /* Pods-FoloosiPro-dummy.m in Sources */,
+				0009DA4BDD7DCCD465189ABDCB1598A5 /* Pods-FoloosiPro-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D8F8D10AF55F3A4E8AA6081608CACA3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Foloosi-iOS-SDK";
+			target = 14B6DE64EB6A7BFB0D5FE3071C216EE1 /* Foloosi-iOS-SDK */;
+			targetProxy = D58A5BF21A5C211B8D8FB6DBD2CDBEED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		54F22776B2393BB9C99D0928B45FAE07 /* Release */ = {
+		2908CE2692CF8F7F0ECAF8DB27A58B65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D00150D5EF3639F181ECF1660645F43F /* Pods-FoloosiPro.release.xcconfig */;
+			baseConfigurationReference = 7B4F9419CD8CC5C7A9E4C4F12A98FA44 /* Pods-FoloosiPro.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -214,6 +312,60 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4A68CFD26089ED0F1F9FB024D558E43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA37F4D74D078B5D03E937FAED12FFF /* Pods-FoloosiPro.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A194B5BB704C49BC3605F8EAC8A8AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78524B6D22D383699E86C51FA5FBE446 /* Foloosi-iOS-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -277,42 +429,23 @@
 			};
 			name = Release;
 		};
-		A9CE5BD5084AED5312A8693F7BCA0C26 /* Debug */ = {
+		9B1DDA738DFE2F2CB8A0C2C279EBA53D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 885015760D2C25840962CA9678C909AF /* Pods-FoloosiPro.debug.xcconfig */;
+			baseConfigurationReference = 22DFFF0B935D3E324D9ADCE3CC6F2D5C /* Foloosi-iOS-SDK.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoloosiPro/Pods-FoloosiPro.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -392,11 +525,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4993BBDE03BBCC0F363A9187C4A7527 /* Build configuration list for PBXNativeTarget "Pods-FoloosiPro" */ = {
+		98200D991EE6CB948737328EB218041D /* Build configuration list for PBXAggregateTarget "Foloosi-iOS-SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9CE5BD5084AED5312A8693F7BCA0C26 /* Debug */,
-				54F22776B2393BB9C99D0928B45FAE07 /* Release */,
+				6A194B5BB704C49BC3605F8EAC8A8AD3 /* Debug */,
+				9B1DDA738DFE2F2CB8A0C2C279EBA53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A47E530410D94A0248E9D459F651A0E /* Build configuration list for PBXNativeTarget "Pods-FoloosiPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A68CFD26089ED0F1F9FB024D558E43F /* Debug */,
+				2908CE2692CF8F7F0ECAF8DB27A58B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
