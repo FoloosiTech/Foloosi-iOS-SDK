@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8rhWY3xIscE3q+e8WawcrOf6MPg=
+		66D22t+T5LAjUA1F//C5xzoW5T0=
 		</data>
 		<key>LoadingView.nib</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		70XhGZ0d+v0XZT9Xyda54d7maHY=
+		18btHL2+zCdFQQQ/vgX8tReRQ9M=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WJZY7HfGbhKQ5iQkkBqAQnMRWxg=
+		MysURM03kde4SBkCte+xaNwTkeg=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		70XhGZ0d+v0XZT9Xyda54d7maHY=
+		18btHL2+zCdFQQQ/vgX8tReRQ9M=
 		</data>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		luLj+AreC/Yz2cmXCrnfdyFdMI4=
+		CFMmKC2IUYeDeOzzOvSfRksGvdE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -190,28 +190,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3gPI8wmj4oT3OiMTP4eT7k6DWiWrAa3oDqei3vkc4Jg=
+			QVkDuDFqUCTBZ+nY2bK06GsQuBwWBggDQFL1Z4Slg1o=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dleLSA3cv06MaVEUE5ZcuYxXKFB5I/tyxdS1mH2PW2A=
+			MQ8XrPuLXOc8Is8K2KYX8fgvYBFGUxZC4L3bvGz/LV8=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3gPI8wmj4oT3OiMTP4eT7k6DWiWrAa3oDqei3vkc4Jg=
+			QVkDuDFqUCTBZ+nY2bK06GsQuBwWBggDQFL1Z4Slg1o=
 			</data>
 		</dict>
 		<key>Modules/FoloosiSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i+0jbskjq9pYug0OmDQCXT9pSbAFj/B2VRK60zxT8nU=
+			449zNYAg0GXkYzcVJPOZ0nw658I45DI7MqykogWUpzQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
